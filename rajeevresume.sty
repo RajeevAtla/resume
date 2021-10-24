@@ -1,0 +1,151 @@
+\ProvidesPackage{rajeevresume}
+
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage[many]{tcolorbox}
+\RequirePackage{fontspec}
+\RequirePackage{marginnote}
+\RequirePackage{fontawesome5}
+\RequirePackage{calc}
+\RequirePackage{enumitem}
+\RequirePackage[none]{hyphenat} % remove hyphenation
+\RequirePackage{emoji}
+
+% make sure all the pdfTeX primitives work with Lua
+\RequirePackage{ifluatex}
+\ifluatex
+  \RequirePackage{pdftexcmds}
+  \makeatletter
+  \let\pdfstrcmp\pdf@strcmp
+  \let\pdffilemoddate\pdf@filemoddate
+  \makeatother
+\fi
+  
+\RequirePackage{svg}
+\RequirePackage{graphicx}
+\RequirePackage{asymptote}
+
+\RequirePackage{hyperref} % keep this last to avoid conflicts
+
+
+% change font
+\setsansfont{Gotham}
+[
+Path = ./Gotham-Font/,
+Extension = .ttf,
+UprightFont = *Light,
+BoldFont = *Bold,
+ItalicFont = *LightItalic,
+BoldItalicFont = *BoldItalic
+]
+
+% set emoji font
+\setemojifont{JoyPixels}
+[
+Path = ./joypixels-6.6-free-fonts/android/,
+Extension = .ttf
+]
+
+% use serif font as default
+\renewcommand{\familydefault}{\sfdefault}
+
+% top and bottom lines
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% page footer is page number (don't need for a single page resume, but you might want it if you have more experience)
+% \cfoot{Page \thepage\ / \pageref{LastPage}}
+
+% remove page numbers
+\pagenumbering{gobble}
+
+% make math easier to read
+\everymath{\displaystyle}
+
+% margins
+\geometry{margin = 1in}
+
+% remove section numbers
+\setcounter{secnumdepth}{0}
+
+%custom defined sections
+\renewcommand{\section}[1]
+{
+  \rule{0.125\textwidth}{0.7ex}
+  \hspace{1pt}
+  {\bfseries \LARGE #1}
+  \hspace{0.25\textwidth}
+  \par
+  \vspace{-2\parskip}
+}
+
+% margin notes
+\setlength{\marginparsep}{-7pt}
+\setlength{\marginparwidth}{1.45in}
+\setlength{\marginparpush}{0pt}
+\setlength{\oddsidemargin}{31pt}
+
+% fix header error
+\setlength{\headheight}{25.0pt}
+\addtolength{\topmargin}{-13.0pt}
+
+% colors
+\definecolor{ghred}{RGB}{189, 44, 0}
+\definecolor{linkedin}{RGB}{0, 119, 181}
+\definecolor{fb}{RGB}{59, 89, 152}
+\definecolor{python}{HTML}{3776AB}
+\definecolor{html5}{HTML}{F06529}
+\definecolor{css3}{HTML}{264DE4}
+\definecolor{ubuntu}{HTML}{E95420}
+\definecolor{windows}{HTML}{01A6F0}
+
+% length variable to help with spacing algebra
+\newlength{\templen}
+
+% function to create entry
+\newcommand{\entry}[4][]
+{
+  % #1 \\ % position (optional)
+  
+  % #2 \\ % date
+  
+  % #3 \\ % company/organization
+  
+  % #4 \\ % description
+
+
+  
+  \settowidth{\templen}{#2}
+  
+  \def\temp{#1}\ifx\temp\empty
+
+  #2
+  \hspace{0.135\textwidth - \templen - 1ex}
+  {\Large\textbf{#3}}
+  #4
+  
+  \else
+  
+  #2
+  \hspace{0.135\textwidth - \templen - 1ex}
+  {\Large\textbf{#1, #3}}
+  #4
+  
+  \fi
+  
+}
+
+
+% change bullet style to red crosshairs
+\renewcommand{\labelitemi}{\textcolor{red}{\faCrosshairs}}
+
+% remove spacing between lines in lists
+\setlist{nosep}
+
+% push itemize environment to left
+\setlist[itemize]{leftmargin = 0.17\textwidth + 3ex}
+
+\endinput
