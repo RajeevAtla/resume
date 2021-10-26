@@ -24,7 +24,6 @@ jobs:
       - name: Install Packages
         run: |
           sudo apt-get install asymptote
-          sudo apt-get install texlive-base 
           sudo apt-get install texlive-latex-recommended 
           sudo apt-get install texlive-fonts-extra 
           sudo apt-get install texlive-binaries 
@@ -36,6 +35,7 @@ jobs:
       - name: Run LaTeX
         run: |
           latexmk -f resume.tex
+          latexmk -c
           
       - name: Commit files
         run: |
