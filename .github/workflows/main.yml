@@ -26,10 +26,7 @@ jobs:
           sudo apt-get update
           sudo apt-get upgrade -y
           sudo apt-get install asymptote
-          sudo apt-get install ghostscript
-          sudo apt-get install freeglut3
-          sudo apt-get install texlive-full
-          sudo apt-get install texlive-luatex
+          sudo apt-get install texlive-base texlive-latex-recommended texlive-fonts-extra texlive-binaries texlive-pictures
           sudo apt-get install inkscape
           sudo apt-get update
           sudo apt-get upgrade -y
