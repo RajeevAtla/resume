@@ -31,7 +31,7 @@ jobs:
           
       - name: Get files
         run: |
-          git submodule add https://git.texlive.info/texlive/
+          git submodule add https://github.com/TeX-Live/texlive-source
       
       - name: Build
         run: |
