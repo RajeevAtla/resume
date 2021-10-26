@@ -37,6 +37,7 @@ jobs:
       - name: LaTeX
         run: |
           sudo apt-get install latexmk
+          tlmgr init-usertree
           tlmgr install emoji
           latexmk -f resume.tex
           
