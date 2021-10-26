@@ -1,0 +1,53 @@
+name: Compile LaTeX
+
+on:
+
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: 0 0 * * *
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with: 
+          persistent-credentials: false
+          fetch-depth: 0
+
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get install asymptote
+          sudo apt-get install ghostscript
+          sudo apt-get install freeglut3
+          sudo apt-get install texlive-full
+          sudo apt-get install inkscape
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get autoremove
+                    
+      - name: LaTeX
+        run: |
+          sudo apt-get install latexmk
+          latexmk -f resume.tex
+          
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "add compiled files"
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
