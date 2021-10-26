@@ -33,6 +33,10 @@ jobs:
           sudo apt-get update
           sudo apt-get upgrade -y
           sudo apt-get autoremove
+          
+      - name: Copy emoji package
+        run: |
+          cp -R /latex-emoji /usr/share/texlive/texmf-dist/tex/latex/
                     
       - name: Run LaTeX
         run: |
