@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: |
           cd texlive-source
-          ./configure
+          ./configure --enable-build-in-source-tree
           make world
           
       - name: Commit files
