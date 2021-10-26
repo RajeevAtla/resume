@@ -34,9 +34,8 @@ jobs:
           sudo apt-get upgrade -y
           sudo apt-get autoremove
                     
-      - name: LaTeX
+      - name: Run LaTeX
         run: |
-          sudo apt-get install latexmk
           latexmk -f resume.tex
           
       - name: Commit files
