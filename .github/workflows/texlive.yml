@@ -1,0 +1,55 @@
+name: Compile LaTeX
+
+on:
+
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: 0 0 * * *
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install Build Prerequisites
+        run: |
+          sudo apt-get update && sudo apt-get upgrade -y
+          sudo apt-get install build-essential
+          sudo apt-get install perl
+          sudo apt-get install fontconfig
+          sudo apt-get install clisp
+          sudo apt-get install libsigsegv
+          sudo apt-get install libiconv
+          
+      - name: Get files
+        run: |
+          git submodule add https://git.texlive.info/texlive/
+      
+      - name: Build
+        run: |
+          cd texlive
+          ./configure
+          make world
+          
+      - name: Commit files
+        run: |
+          git config user.email github-actions@github.com
+          git config user.name github-actions
+          git add .
+          git commit -m "build TeX Live from source"
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
