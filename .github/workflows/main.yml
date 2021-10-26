@@ -37,7 +37,7 @@ jobs:
       - name: Copy emoji package
         run: |
           ls
-          sudo cp -R /latex-emoji /usr/share/texlive/texmf-dist/tex/latex/
+          sudo cp -R latex-emoji /usr/share/texlive/texmf-dist/tex/latex/
                     
       - name: Run LaTeX
         run: |
