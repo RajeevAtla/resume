@@ -21,7 +21,7 @@ jobs:
           persistent-credentials: false
           fetch-depth: 0
 
-      - name: Install packages
+      - name: Install Packages
         run: |
           sudo apt-get update
           sudo apt-get upgrade -y
@@ -37,7 +37,7 @@ jobs:
       - name: LaTeX
         run: |
           sudo apt-get install latexmk
-	  tlmgr install emoji
+          tlmgr install emoji
           latexmk -f resume.tex
           
       - name: Commit files
