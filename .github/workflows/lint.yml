@@ -35,16 +35,4 @@ jobs:
                     
       - name: Lint
         run: |
-          chktex -d 16 -q -v 4 
-          
-      - name: Commit files
-        run: |
-          git config user.email github-actions@github.com
-          git config user.name github-actions
-          git add .
-          git commit -m "compile resume"
-      - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          chktex -d 16 -q -v 4
