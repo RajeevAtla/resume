@@ -65,12 +65,16 @@ BoldItalicFont = *BoldItalic
 % remove section numbers
 \setcounter{secnumdepth}{0}
 
+% spacing variables
+\newlength{\separatorcolumnwidth}
+\setlength{\separatorcolumnwidth}{0.025\textwidth}
+
 %custom defined sections
 \renewcommand{\section}[1]
 {
   \addcontentsline{toc}{section}{#1}
   \rule{0.125\textwidth}{0.7ex}
-  \hspace{1pt}
+  \hspace{\separatorcolumnwidth}
   {\bfseries \LARGE #1}
   \par
   \vspace{-2\parskip}
@@ -114,18 +118,18 @@ BoldItalicFont = *BoldItalic
   % #4 \\ % description
   
   \def\temp{#1}\ifx\temp\empty
-  \begin{tabularx}{\textwidth}{@{} D  @{} m{420pt}}
-      #2 & \Large{\textbf{#3}} \\
-      & #4
+  \begin{tabularx}{\textwidth}{@{} D  @{} p{\separatorcolumnwidth} @{} m{420pt}}
+      #2 & & \Large{\textbf{#3}} \\
+      & & #4
   \end{tabularx}
   \par
   \vspace{-2\parskip}
   
   \else
   
-  \begin{tabularx}{\textwidth}{@{} D  @{} m{420pt}}
-      #2 & \Large{\textbf{#1, #3}} \\
-      & #4
+  \begin{tabularx}{\textwidth}{@{} D  @{} p{\separatorcolumnwidth} @{} m{420pt}}
+      #2 & & \Large{\textbf{#1, #3}} \\
+      & & #4
   \end{tabularx}
   \par
   \vspace{-2\parskip}
