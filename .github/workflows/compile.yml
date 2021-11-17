@@ -24,6 +24,7 @@ jobs:
       - name: Install Packages
         run: |
           sudo apt-get install texlive-latex-recommended
+          sudo apt-get install texlive-font-utils
           sudo apt-get install latexmk
           sudo apt-get install texlive-luatex
                     
