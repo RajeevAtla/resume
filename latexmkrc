@@ -17,4 +17,4 @@ add_cus_dep("asy","pdf",0,"asy");
 add_cus_dep("asy","tex",0,"asy");
 
 # silent mode
-$silent = 1;
+# $silent = 1;
