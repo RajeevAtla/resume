@@ -68,6 +68,7 @@ BoldItalicFont = *BoldItalic
 %custom defined sections
 \renewcommand{\section}[1]
 {
+  \addcontentsline{toc}{section}{#1}
   \rule{0.125\textwidth}{0.7ex}
   \hspace{1pt}
   {\bfseries \LARGE #1}
