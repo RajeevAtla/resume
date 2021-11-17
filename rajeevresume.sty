@@ -100,6 +100,9 @@ BoldItalicFont = *BoldItalic
 % length variable to help with spacing algebra
 \newlength{\templen}
 
+% date column type
+\newcolumntype{D}{>{\raggedright}l}
+
 % function to create entry
 \newcommand{\entry}[4][]
 {
@@ -116,20 +119,22 @@ BoldItalicFont = *BoldItalic
   \settowidth{\templen}{#2}
   
   \def\temp{#1}\ifx\temp\empty
-
-  #2
-  \hspace{0.135\textwidth - \templen - 1ex}
-  {\Large\textbf{#3}}
-  #4
+  
+  \begin{tabularx}{\textwidth}{ D  m{425pt} }
+    \hspace{-\tabcolsep -1.5pt} #2 & \Large{\textbf{#3}} \\
+      & 
+      #4
+      \\
+  \end{tabularx}
   
   \else
   
-  #2
-  \hspace{0.135\textwidth - \templen - 1ex}
-  {\Large\textbf{#1, #3}}
-  #4
-  
-  \fi
+  \begin{tabularx}{\textwidth}{ D  m{425pt} }
+    \hspace{-\tabcolsep -1.5pt} #2 & \Large{\textbf{#1, #3}} \\
+      & 
+      #4
+      \\
+  \end{tabularx}
   
 }
 
