@@ -24,6 +24,7 @@ jobs:
       - name: Install Packages
         run: |
           sudo apt-get install imagemagick
+          sudo apt-get install ghostscript
           
       - name: Change ImageMagick policy to allow pdf to png conversion.
         run: |
