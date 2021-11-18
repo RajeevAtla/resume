@@ -27,7 +27,7 @@ jobs:
                     
       - name: Convert Image
         run: |
-          convert resume.pdf resume.png
+          convert -density 150 resume.pdf -quality 90 resume.jpg
           
       - name: Commit files
         run: |
