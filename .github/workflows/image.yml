@@ -24,6 +24,10 @@ jobs:
       - name: Install Packages
         run: |
           sudo apt-get install imagemagick
+          
+      - name: Change ImageMagick policy to allow pdf to png conversion.
+        run: |
+          sudo sed -i 's/^.*policy.*coder.*none.*PDF.*//' /etc/ImageMagick-6/policy.xml
                     
       - name: Convert Image
         run: |
