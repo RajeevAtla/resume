@@ -35,7 +35,7 @@ jobs:
           git config user.email github-actions@github.com
           git config user.name github-actions
           git add .
-          git commit -m "compile resume"
+          git commit -m "compile resume and add generated resume.pdf file"
 
       - name: Push
         uses: ad-m/github-push-action@master
