@@ -1,0 +1,42 @@
+name: Create Preview Image
+
+on:
+
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: 0 * * * *
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install Packages
+        run: |
+          sudo apt-get install imagemagick
+                    
+      - name: Convert Image
+        run: |
+          convert resume.pdf resume.png
+          
+      - name: Commit files
+        run: |
+          git config user.email github-actions@github.com
+          git config user.name github-actions
+          git add .
+          git commit -m "compile resume"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
