@@ -141,18 +141,10 @@ BoldItalicFont = *BoldItalic
 \renewcommand{\labelitemi}{\faDotCircle[regular]}
 
 % remove spacing between lines in lists
-\setlist{nosep}
-
 % remove itemize margin
-\setlist[itemize]{leftmargin=*}
-
 % push itemize environment to left
-\setlist[itemize]{labelindent=0pt}
-
 % left align list items
-\setlist[itemize]{align=left}
-
 % reduce space between bullets and text
-\setlist[itemize]{labelsep=0pt}
+\setlist{nosep, leftmargin=*, labelindent=0pt, align=left, labelsep=0pt}
 
 \endinput
