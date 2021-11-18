@@ -2,9 +2,8 @@
 
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}
-\RequirePackage{lastpage}
+% \RequirePackage{lastpage} %only use if multipage
 \RequirePackage[dvipsnames]{xcolor}
-\RequirePackage[many]{tcolorbox}
 \RequirePackage{fontspec}
 \RequirePackage{marginnote}
 \RequirePackage{fontawesome5}
@@ -22,9 +21,6 @@
   \let\pdffilemoddate\pdf@filemoddate
   \makeatother
 \fi
-  
-\RequirePackage{svg}
-\RequirePackage{graphicx}
 
 \RequirePackage{hyperref} % keep this last to avoid conflicts
 
@@ -39,8 +35,6 @@ BoldFont = *Bold,
 ItalicFont = *LightItalic,
 BoldItalicFont = *BoldItalic
 ]
-
-
 
 % use serif font as default
 \renewcommand{\familydefault}{\sfdefault}
@@ -64,6 +58,11 @@ BoldItalicFont = *BoldItalic
 
 % remove section numbers
 \setcounter{secnumdepth}{0}
+
+% colors
+\definecolor{ghred}{RGB}{189, 44, 0}
+\definecolor{linkedin}{RGB}{0, 119, 181}
+\definecolor{fb}{RGB}{59, 89, 152}
 
 % spacing variables
 \newlength{\separatorcolumnwidth}
@@ -90,19 +89,6 @@ BoldItalicFont = *BoldItalic
 \setlength{\headheight}{25.0pt}
 \addtolength{\topmargin}{-13.0pt}
 
-% colors
-\definecolor{ghred}{RGB}{189, 44, 0}
-\definecolor{linkedin}{RGB}{0, 119, 181}
-\definecolor{fb}{RGB}{59, 89, 152}
-\definecolor{python}{HTML}{3776AB}
-\definecolor{html5}{HTML}{F06529}
-\definecolor{css3}{HTML}{264DE4}
-\definecolor{ubuntu}{HTML}{E95420}
-\definecolor{windows}{HTML}{01A6F0}
-
-% length variable to help with spacing algebra
-\newlength{\templen}
-
 % date column type
 \newcolumntype{D}{>{\raggedleft}p{0.13\textwidth}}
 
@@ -117,23 +103,16 @@ BoldItalicFont = *BoldItalic
   
   % #4 \\ % description
   
-  \def\temp{#1}\ifx\temp\empty
   \begin{tabularx}{\textwidth}{@{} D  @{} p{\separatorcolumnwidth} @{} m{420pt}}
+      \def\temp{#1}\ifx\temp\empty
       #2 & & \Large{\textbf{#3}} \\
-      & & #4
-  \end{tabularx}
-  \par
-  \vspace{-2\parskip}
-  
-  \else
-  
-  \begin{tabularx}{\textwidth}{@{} D  @{} p{\separatorcolumnwidth} @{} m{420pt}}
+      \else
       #2 & & \Large{\textbf{#1, #3}} \\
+      \fi
       & & #4
   \end{tabularx}
   \par
   \vspace{-2\parskip}
-  \fi
 }
 
 
