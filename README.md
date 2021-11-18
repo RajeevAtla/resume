@@ -6,4 +6,4 @@ Contains source code (LaTeX) for my resume.
 Compiled and linted hourly by GitHub Actions.
 Uses ImageMagick to convert from pdf to png and display it here.
 
-![Resume](/resume.png "Resume")
+![Resume](/resume.jpg "Resume")
