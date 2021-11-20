@@ -8,3 +8,5 @@ Compiled and linted hourly by GitHub Actions.
 Uses ImageMagick to convert from pdf to png and display it here.
 
 ![Resume](/resume.jpg "Resume")
+
+# About
