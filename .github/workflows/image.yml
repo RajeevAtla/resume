@@ -36,7 +36,7 @@ jobs:
           git config user.email github-actions@github.com
           git config user.name github-actions
           git add .
-          git commit -m "generate preview" --allow-empty
+          git commit -m "generate preview and add resume.jpg" --allow-empty
       - name: Push
         uses: ad-m/github-push-action@master
         with:
