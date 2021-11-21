@@ -7,7 +7,7 @@
 
 This repo contains source code (LaTeX) for my resume.
 It's compiled and linted hourly by GitHub Actions.
-It uses ImageMagick's convert function to convert from pdf to png and display it [below](#preview).
+It uses ImageMagick's `convert` function to convert from pdf to png and display it [below](#preview).
 
 ## Inspiration
 
