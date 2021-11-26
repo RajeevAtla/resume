@@ -27,4 +27,4 @@ jobs:
                     
       - name: Lint
         run: |
-          chktex -d 16 -q -v 4
+          chktex -d 16 -q -v 4 resume.tex
