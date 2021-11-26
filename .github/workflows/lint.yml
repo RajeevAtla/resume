@@ -28,3 +28,4 @@ jobs:
       - name: Lint
         run: |
           chktex resume.tex
+          chktex rajeevresume.sty
