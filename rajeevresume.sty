@@ -14,11 +14,11 @@
 
 % make sure all the pdfTeX primitives work with Lua
 \RequirePackage{ifluatex}
-\ifluatex
+\ifluatex % chktex 1
   \RequirePackage{pdftexcmds}
   \makeatletter
   \let\pdfstrcmp\pdf@strcmp
-  \let\pdffilemoddate\pdf@filemoddate
+  \let\pdffilemoddate\pdf@filemoddate % chktex 1
   \makeatother
 \fi
 
@@ -104,7 +104,7 @@ BoldItalicFont = *BoldItalic
   % #4 \\ % description
   
   \begin{tabularx}{\textwidth}{@{} D  @{} p{\separatorcolumnwidth} @{} m{420pt}}
-      \def\temp{#1}\ifx\temp\empty
+      \def\temp{#1}\ifx\temp\empty % chktex 1
       #2 & & \Large{\textbf{#3}} \\
       \else
       #2 & & \Large{\textbf{#1, #3}} \\
