@@ -6,7 +6,7 @@
 ## About
 
 This repo contains source code (LaTeX) for my resume.
-It's compiled and linted hourly by GitHub Actions.
+It's continuously integrated and deployed using GitHub Actions.
 It uses ImageMagick's `convert` function to convert from pdf to png and display it [below](#preview).
 It's linted using [`chktex`](https://www.nongnu.org/chktex/).
 
