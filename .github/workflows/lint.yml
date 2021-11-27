@@ -27,5 +27,5 @@ jobs:
                     
       - name: Lint
         run: |
-          chktex resume.tex
-          chktex rajeevresume.sty
+          chktex resume.tex -d 8
+          chktex rajeevresume.sty -d 8
