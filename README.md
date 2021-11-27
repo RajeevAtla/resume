@@ -10,6 +10,8 @@ It's continuously integrated and deployed using GitHub Actions.
 It uses ImageMagick's `convert` function to convert from pdf to png and display it [below](#preview).
 It's linted using [`chktex`](https://www.nongnu.org/chktex/).
 
+It's a template, so that you can generate your own resume using this format.
+
 ## Inspiration
 
 This resume template was inspired by [Deedy Resume](https://github.com/deedy/Deedy-Resume), [Awesome CV](https://github.com/posquit0/Awesome-CV), [sb2nov's resume](https://github.com/sb2nov/resume), [Friggeri CV](https://github.com/Nadorrano/cv-friggeri-x), [ModernCV](https://github.com/xdanaux/moderncv), and [Jake's Resume](https://github.com/jakegut/resume).
