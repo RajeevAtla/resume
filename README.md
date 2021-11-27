@@ -11,6 +11,7 @@ It uses ImageMagick's `convert` function to convert from pdf to png and display 
 It's linted using [`chktex`](https://www.nongnu.org/chktex/).
 
 It's a template, so that you can generate your own resume using this format.
+The LaTeX source code is licensed under the GNU AGPL.
 
 ## Inspiration
 
