@@ -1,9 +1,6 @@
 # use lualatex
 $pdf_mode = 4;
 
-# enable shell escape
-set_tex_cmds( '--shell-escape %O %S' );
-
 # use batch mode
 $interaction = batchmode;
 
