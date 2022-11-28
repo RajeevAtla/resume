@@ -1,147 +1,187 @@
-\documentclass[12]{article}
-\usepackage{rajeevresume}
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\input{glyphtounicode}
+\pdfgentounicode=1
+\DisableLigatures{encoding = *, family = * }
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+\usepackage{sansmathfonts}
+\renewcommand*\familydefault{\sfdefault}
+% remove these two lines to get serif
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\urlstyle{same}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\Large
+}{}{0em}{}[\color{black} \titlerule \vspace{-5pt}]
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+    \item \small {
+        {#1 \vspace{-3pt}} % tighter bulleted lists
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{ % new role, new organization
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{ % only use when role changes in same organization
+    \item
+    \begin{tabular*}{0.99\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % when company/data don't matter
+    \item
+    \begin{tabular*}{0.99\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textit{#2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
+
+
+\setlength{\footskip}{4.08003pt}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\chead{\huge{Rajeev Atla}}
-
-\reversemarginpar\marginnote{
-  \begin{flushleft}
-    {\large \textbf{Contact}} \\
-    \href{https://rajeevatla.com}{\textcolor{blue}{\faGlobe}\ rajeevatla.com} \\
-    \href{mailto:hi@rajeevatla.com}{\textcolor{green}{\faEnvelopeSquare}\ hi@rajeevatla.com} \\
-    \href{https://github.com/RajeevAtla}{\textcolor{ghred}{\faGithub}\ RajeevAtla} \\
-    \href{https://www.linkedin.com/in/rajeev-atla/}{\textcolor{linkedin}{\faLinkedinIn}\  rajeev-atla} \\
-    \href{https://www.facebook.com/rajeevratla}{\textcolor{fb}{\faFacebook}\ rajeevratla} \\
-    {\large \textbf{Programming}} \\
-    Python \\
-    Java \\
-    C/C++ \\
-    JavaScript \\
-    SQL \\
-    {\large \textbf{Technologies}} \\
-    NumPy \\
-    PyTorch \\
-    TensorFlow \\
-    Keras \\
-    Pandas \\
-    Scikit-learn \\
-    Git \\
-    {\large \textbf{Markup}} \\
-    \LaTeX{} \\
-    Asymptote \\
-    HTML \\
-    CSS \\
-    Markdown \\
-    {\large \textbf{Tools}} \\
-    Emacs \\
-    Ubuntu \\
-  \end{flushleft}
-}[-41.5pt]
+%----------HEADING----------
 
 
+\begin{center}
+    \textbf{\Huge \scshape Rajeev Atla} \\
+    \href{mailto:rajeev@rajeevatla.com}{\underline{rajeev@rajeevatla.com}} $|$ 
+    \href{https://www.linkedin.com/in/rajeev-atla/}{\underline{linkedin.com/in/rajeev-atla}} $|$
+    \href{https://github.com/RajeevAtla}{\underline{github.com/RajeevAtla}} $|$
+    \href{https://rajeevatla.com}{\underline{rajeevatla.com}}
+\end{center}
 
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rutgers University}{New Brunswick, NJ}
+      {Majors: Computer Science, Computer Engineering, and Statistics/Mathematics}{September 2021 - May 2025}
+      \begin{itemize}[leftmargin=0.25in, label={}]
+    \small{\item Relevant Coursework: Algorithms, Data Structures, Multivariable Calculus, Differential Equations, Linear Algebra, Probability Theory, Machine Learning, Digital Logic Design, Databases, Discrete Math \\
+    Extracurriculars: Engineering Honors Academy (\textbf{top 7\%} of class), IEEE, Competitive Programming, Math Association \\
+    }
+\end{itemize}
+  \resumeSubHeadingListEnd
 
+\vspace{-37pt}
 
-\vspace{-1.5\baselineskip}
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.25in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C/C++, JavaScript, SQL, MATLAB, HTML/CSS} \\
+     \textbf{Tools}{: Git, Emacs, GitHub Actions, Linux} \\
+     \textbf{Libraries}{: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-learn}
+    }}
+ \end{itemize}
 
+\vspace{-27pt}
 
-\section{\faGraduationCap\ Education}
-\entry{2021 -- 2025} % chktex 8
-{Rutgers University --- New Brunswick}
-{
-  \begin{itemize}
-  \item Majoring in Computer Science \& Computer Engineering
-  \item Minor in Data Science
-  \item Dean's List Fall 2021
-  \item Extracurriculars: Engineering Honors Academy, IEEE, Competitive Programming, Engineering Honors Council, Math Association, Quidditch
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{2017 -- 2021} % chktex 8
-{John P. Stevens High School}
-{
-  \begin{itemize}
-  \item Scored a \textbf{35/36} on ACT
-  \item Extracurriculars: Science Bowl (President), Science League (President), Physics Club (President), Chemistry Club (President), Quiz Bowl, National Honor Society, Science National Honors Society, National Technical Honor Society, National English Honor Society, Mu Alpha Theta
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{2020 -- 2021} % chktex 8
-{Columbia Science Honors Program}
-{
-  \begin{itemize}
-  \item Took \emph{Introduction to Algorithms} and \emph{Graph Theory}
-  \item Selected as one of \textbf{\textasciitilde{} 2000} applicants from the tri-state area (NJ, NY, CT)
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
+\section{Relevant Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {Software Engineering Intern}{May 2022 - September 2022}
+        {Atlait}{Remote}
+        \resumeItemListStart
+            \resumeItem{Updated website from ES5 to ES7 using HTML, CSS, and JavaScript}
+            \resumeItem{Optimized internal tooling to speed up build pipeline by \textbf{13\%}}
+            \resumeItem{\textbf{Doubled} weekly web traffic by enhancing SEO presence and implementing Google Analytics tracking}
+            \resumeItem{Created script to compress form data with Python and SQL, saving \textbf{7\%} in storage costs}
+            \resumeItem{Deployed machine learning-based resource inference system for internal microservices, reducing latency by \textbf{100 milliseconds}}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
+\vspace{-30pt}
 
-\section{\faSitemap\ Projects}
+%-----------PROJECTS-----------
+\section{Relevant Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{SuperconGAN} $|$ GitHub Repository: \underline{\url{https://bit.ly/3z7JaqZ}}}{June 2020 - Present}
+          \resumeItemListStart
+            \resumeItem{Designed and trained a generative adversarial network (GAN) to analyze superconductivity data using PyTorch}
+            \resumeItem{Withdrew \textbf{80,000+ entry} dataset from UCI Machine Learning Repository using Pandas}
+            \resumeItem{Published package on Python Package Index (PyPI) with \textbf{20,000+ downloads}}
+            \resumeItem{Achieved \textbf{80\%} test coverage using Pytest to ensure proper function of package}
+            \resumeItem{Wrote paper summarizing findings and potential future research directions with LaTeX, using \textbf{500,000+ data points}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+            {\textbf{Cityscape} $|$ Devpost Entry: \underline{\url{https://bit.ly/3OZjJ07}}}{May 2021 - Present}
+            \resumeItemListStart
+            \resumeItem{Led \textbf{team of 4} to brainstorm, design, and write mobile app to give iconic tours of cities}
+            \resumeItem{Wrote controllers and models for MongoDB using Mongoose ORM to store \textbf{30+ kB} of geographic data in NoSQL schema}
+            \resumeItem{Built mobile user interface allowing users to search, review, rank, and explore \textbf{100+ tours} using Flutter/Dart}
+            \resumeItem{Constructed REST API using Express.js and nodemon to increase development velocity by \textbf{20\%} with hot-reloading}
+            \resumeItem{Overhauled Google Slides pitch deck to win \textbf{2nd overall} at HackExeter 2021}
+          \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{IMDB Movie Review Sentiment Analysis} $|$ GitHub Repository: \underline{\url{https://bit.ly/3C3RpWK}}}{November 2020 - Present}
+            \resumeItemListStart
+            \resumeItem{Led \textbf{team of 5} to use Scikit-learn and Pandas to classify IMDB movie reviews}
+            \resumeItem{Implemented F1-based linear term frequency bigram model to achieve \textbf{90.5\%} accuracy}
+            \resumeItem{Extracted data from \textbf{25,000+} movie reviews with Pandas and removed \textbf{20+} stopwords to improve model performance}
+            \resumeItem{Created confusion matrices and data visualizations for \textbf{5+} models using Seaborn}
+            \resumeItem{Presented results in annual data science competition in local community, placing \textbf{3rd place} out of \textbf{15+} participants}
+            \resumeItemListEnd
+        \resumeProjectHeading
+            {\textbf{EyeQ} $|$ Github Repository: \underline{\url{https://bit.ly/3RsAyBL}}}{September 2021 - Present}
+            \resumeItemListStart
+            \resumeItem{Spearheaded \textbf{team of 5} to improve experiences for visually impaired people}
+            \resumeItem{Developed Elixir-based application to transcribe images and documents up to \textbf{1 GB} in size}
+            \resumeItem{Reduced Docker image size \textbf{53\%} to ensure speedy pipeline to deployment}
+            \resumeItem{Improved and streamlined Phoenix server to ensure average latency is \textbf{$<$ 3s}}
+            \resumeItem{Presented results and code to \textbf{7+} Engineering Honors Academy alumni in annual student presentation}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
-\entry{2020 -- 2021} % chktex 8
-{SuperconGAN}
-{
-  \begin{itemize}
-  \item Used PyTorch to construct and train a generative adversarial network (GAN) to analyze superconductivity data
-  \item Withdrew data from UCI Machine Learning Repository using Pandas
-  \item Published package on Python Package Index (PyPI) with \textbf{20,000+ downloads}
-  \item Wrote unit tests using Pytest, achieving \textbf{80\%} test coverage
-  \item GitHub Repository: \url{https://github.com/RajeevAtla/SuperconGAN}
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{2019 -- 2021} % chktex 8
-{RajeevAtla.com}
-{
-  \begin{itemize}
-  \item Used Jekyll and GitHub Pages to publish personal website
-  \item Blogged on various technical subjects including physics and math
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{Aug. 2020}
-{Sentiment Classification on IMDb Movie Reviews}
-{
-  \begin{itemize}
-  \item Lead a team of \textbf{5} in using Sklearn and Pandas to construct an F1-based model to classify movie reviews as positive or negative
-  \item Achieved \textbf{90.5\%} accuracy using linear bigram tf-idf
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{May 2021}
-{Cityscape}
-{
-  \begin{itemize}
-  \item Designed mobile app to give iconic tours of areas along with 4 team members
-  \item Wrote controllers and models for MongoDB using Mongoose ORM
-  \item Utilized Flutter for frontend and Express.js and MongoDB for backend
-  \item Placed \textbf{2nd} at HackExeter 2021
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-
-\section{\faAward\ Awards}
-
-\entry{March 2020}
-{US Physics Olympiad Qualifier}
-{
-  \begin{itemize}
-  \item Placed in \textbf{top 400} out of \textbf{5,000+} on $F=ma$ exam, based on knowledge of calculus-based mechanics and physical intuition
-  \item \url{https://www.aapt.org/physicsteam/2020/upload/2020-USAPhO-Qualifiers\_v3.pdf}
-  \end{itemize}
-}
-\vspace{-1\baselineskip}
-\entry{2019, 2021}
-{NJIT Chemistry Olympics}
-{
-  \begin{itemize}
-  \item Utilized knowledge of organic and inorganic chemical nomenclature, as well as general chemistry knowledge
-  \item Lead nomenclature team to \textbf{3rd place in 2021} and \textbf{4th place in 2019}
-  \item Lead demonstration show team to \textbf{4th place in 2019}
-  \item Selected to represent high school out of \textbf{200+} applicants
-  \end{itemize}
-}
-
+%-------------------------------------------
 \end{document}
