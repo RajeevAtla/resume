@@ -1,5 +1,5 @@
 # use lualatex
-$pdf_mode = 4;
+# $pdf_mode = 4;
 
 # use batch mode
 $interaction = batchmode;
