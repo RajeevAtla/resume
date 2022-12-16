@@ -7,7 +7,7 @@
 
 This repo contains source code (LaTeX) for my resume.
 It's continuously integrated and deployed using GitHub Actions.
-It uses ImageMagick's [`convert`](https://imagemagick.org/script/convert.php) function to convert from pdf to png and display it [below](#preview).
+It uses ImageMagick's [`convert`](https://imagemagick.org/script/convert.php) function to convert from pdf to jpg and display it [below](#preview).
 It's linted using [`chktex`](https://www.nongnu.org/chktex/).
 
 It's a template, so that you can generate your own resume using this format.
