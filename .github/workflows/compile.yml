@@ -28,7 +28,7 @@ jobs:
                     
       - name: Run LaTeX
         run: |
-          latexmk -f resume.tex
+          latexmk -f -pdf resume.tex
           latexmk -c
           
       - name: Commit files
