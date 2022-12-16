@@ -15,7 +15,7 @@ The LaTeX source code is licensed under the GNU AGPL.
 
 ## Inspiration
 
-This resume template was inspired by [Deedy Resume](https://github.com/deedy/Deedy-Resume), [Awesome CV](https://github.com/posquit0/Awesome-CV), [sb2nov's resume](https://github.com/sb2nov/resume), [Friggeri CV](https://github.com/Nadorrano/cv-friggeri-x), [ModernCV](https://github.com/xdanaux/moderncv), and [Jake's Resume](https://github.com/jakegut/resume).
+This resume template was inspired by [Jake's Resume](https://github.com/jakegut/resume).
 
 ## Preview
 
