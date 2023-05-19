@@ -11,7 +11,7 @@ It uses ImageMagick's [`convert`](https://imagemagick.org/script/convert.php) fu
 It's linted using [`chktex`](https://www.nongnu.org/chktex/).
 
 It's a template, so that you can generate your own resume using this format.
-The LaTeX source code is licensed under the GNU AGPL.
+The LaTeX source code is licensed under the GNU AGPL licesnse.
 
 ## Inspiration
 
