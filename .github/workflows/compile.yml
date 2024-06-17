@@ -30,13 +30,17 @@ jobs:
         run: |
           latexmk -f -pdf resume.tex
           latexmk -c
+
+      - name: Copy resume file
+        run: |
+          cp 'resume.pdf' 'rajeev_atla_resume.pdf'
           
       - name: Commit files
         run: |
           git config user.email github-actions@github.com
           git config user.name github-actions
           git add .
-          git commit -m "compile resume and add generated resume.pdf file"
+          git commit -m "compile resume and add generated resume.pdf files"
 
       - name: Push
         uses: ad-m/github-push-action@master
