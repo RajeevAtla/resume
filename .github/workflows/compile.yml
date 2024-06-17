@@ -33,7 +33,7 @@ jobs:
 
       - name: Copy resume file
         run: |
-          cp 'resume.pdf' 'rajeev_atla_resume.pdf'
+          cp 'resume.pdf' 'Rajeev_Atla_Resume.pdf'
           
       - name: Commit files
         run: |
