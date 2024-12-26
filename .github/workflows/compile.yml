@@ -27,6 +27,8 @@ jobs:
           packages: |
             scheme-full
             sansmathfonts
+          tlcontrib: true
+          update-all-packages: true
           
       - name: Run LaTeX
         run: |
