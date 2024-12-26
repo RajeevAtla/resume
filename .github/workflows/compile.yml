@@ -27,6 +27,7 @@ jobs:
           packages: |
             scheme-full
             sansmathfonts
+            cm-super
           tlcontrib: true
           update-all-packages: true
           
