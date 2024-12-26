@@ -34,7 +34,7 @@ jobs:
       - name: Run LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install tex-live-fonts-extra
+          sudo apt-get install texlive-fonts-extra
           latexmk -f -pdf resume.tex
           latexmk -c
 
