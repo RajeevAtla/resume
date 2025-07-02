@@ -16,4 +16,4 @@ This resume template was inspired by [Jake's Resume](https://github.com/jakegut/
 
 ## Preview
 
-![Resume](/resume.jpg "Resume")
+![Resume](/resume.png "Resume")
