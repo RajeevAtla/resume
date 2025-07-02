@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
           submodules: recursive
           
-      - uses: typst-community/checkout@master
+      - uses: typst-community/setup-typst@master
           
       - name: Run Typst
         run: |
