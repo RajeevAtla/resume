@@ -1,10 +1,8 @@
 #import "resume.typ": *
 
-#set page(
-    margin: (
-        top: 0cm
-    )
-)
+#set page(margin: (
+    top: 0cm,
+))
 
 // Put your personal information here, replacing mine
 #let name = "Rajeev Atla"
@@ -15,26 +13,26 @@
 #let personal-site = "rajeevatla.com"
 
 #show: resume.with(
-  author: name,
-  // All the lines below are optional.
-  // For example, if you want to to hide your phone number:
-  // feel free to comment those lines out and they will not show.
-  email: email,
-  github: github,
-  linkedin: linkedin,
-  phone: phone,
-  personal-site: personal-site,
-  accent-color: "#000000",
-  font: "New Computer Modern",
-  paper: "us-letter",
-  author-position: center,
-  personal-info-position: center,
+    author: name,
+    // All the lines below are optional.
+    // For example, if you want to to hide your phone number:
+    // feel free to comment those lines out and they will not show.
+    email: email,
+    github: github,
+    linkedin: linkedin,
+    phone: phone,
+    personal-site: personal-site,
+    accent-color: "#000000",
+    font: "New Computer Modern",
+    paper: "us-letter",
+    author-position: center,
+    personal-info-position: center,
 )
 
 
 #set list(
     indent: -0in,
-    body-indent: 0.125em
+    body-indent: 0.125em,
 )
 
 == Education
@@ -44,30 +42,30 @@
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
     degree: "MS in Computer Engineering (Specialization in Machine Learning)",
-    consistent: true
+    consistent: true,
 )
 
 Relevant Coursework: Reinforcement Learning, Multimodal Machine Learning, High Performance & Distributed Computing
 
 #edu(
-  institution: "Rutgers University - School of Engineering",
-  location: "New Brunswick, NJ",
-  dates: dates-helper(start-date: "Sep 2021", end-date: "May 2025"),
-  degree: "Triple Major (BS) in Computer Science, Computer Engineering, and Data Science",
-  consistent: true
+    institution: "Rutgers University - School of Engineering",
+    location: "New Brunswick, NJ",
+    dates: dates-helper(start-date: "Sep 2021", end-date: "May 2025"),
+    degree: "Triple Major (BS) in Computer Science, Computer Engineering, and Data Science",
+    consistent: true,
 )
 
-Relevant Coursework: 
-      Machine Learning, 
-      AI, 
-      Deep Learning, 
-      Distributed Deep Learning, 
-      Data Science,
-      Statistical Learning, 
-      Statistical Inference,
-      Stochastic Processes, 
-      Algorithms, 
-      Computer Vision
+Relevant Coursework:
+Machine Learning,
+AI,
+Deep Learning,
+Distributed Deep Learning,
+Data Science,
+Statistical Learning,
+Statistical Inference,
+Stochastic Processes,
+Algorithms,
+Computer Vision
 == Skills
 - *Programming Languages*: Python, R, SQL, Java, C/C++, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
@@ -78,10 +76,10 @@ Relevant Coursework:
 == Work Experience
 
 #work(
-  title: "Software Engineering Intern",
-  location: "Remote",
-  company: "Atlait Inc.",
-  dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
+    title: "Software Engineering Intern",
+    location: "Remote",
+    company: "Atlait Inc.",
+    dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - Integrated a PyTorch inference system into microservices architecture, *improving mean response time by 96 milliseconds*
@@ -90,8 +88,8 @@ Relevant Coursework:
 == Projects
 
 #project(
-  name: "SuperconGAN",
-  url: "https://bit.ly/3z7JaqZ"
+    name: "SuperconGAN",
+    url: "https://bit.ly/3z7JaqZ",
 )
 - Built a PyTorch-based GAN to model superconductivity data, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
@@ -100,7 +98,7 @@ Relevant Coursework:
 
 #project(
     name: "IMDB Movie Review Sentiment Analysis",
-    url: "https://bit.ly/3C3RpWK"
+    url: "https://bit.ly/3C3RpWK",
 )
 - Led *team of 5* to use Scikit-learn and Pandas to classify IMDB movie reviews
 - Implemented a F1-based linear term-frequency bigram NLP model to *achieve 90.5% accuracy*
@@ -110,7 +108,7 @@ Relevant Coursework:
 
 #project(
     name: "Cityscape",
-    url: "https://bit.ly/3OZjJ07"
+    url: "https://bit.ly/3OZjJ07",
 )
 - Lead a *team of 4* in designing and implementing a city tour mobile app, resulting in *100+ vivid city tours* for users
 - Wrote controllers and models for MongoDB using MongooseORM to store *30+ kB of geographic data* in NoSQL schema
@@ -120,7 +118,7 @@ Relevant Coursework:
 
 #project(
     name: "EyeQ",
-    url: "https://bit.ly/3RsAyBL"
+    url: "https://bit.ly/3RsAyBL",
 )
 - Spearheaded *team of 5* to improve expreriences for visually impaired people
 - Developed Elixir-based application to transcribe images and documents *up to 1 GB in size*
