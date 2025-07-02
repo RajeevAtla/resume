@@ -1,4 +1,4 @@
-name: Compile Typst
+name: Compile and Lint Typst
 
 on:
 
@@ -20,6 +20,16 @@ jobs:
         with:
           fetch-depth: 0
           submodules: recursive
+
+      - uses: taiki-e/cache-cargo-install-action@v2
+        with:
+          tool: typstyle
+          
+      - name: Lint Typst
+        run: |
+          cd typst
+          typstyle rajeev_atla_resume.typ resume.typ --inplace --indent-width 4 --verbose --timing
+          cd ..
           
       - uses: typst-community/setup-typst@v4
         with:
