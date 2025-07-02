@@ -1,4 +1,4 @@
-name: Compile LaTeX
+name: Compile Typst
 
 on:
 
@@ -21,15 +21,12 @@ jobs:
           fetch-depth: 0
           submodules: recursive
           
-      - name: Install Packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install texlive-latex-recommended texlive-formats-extra texlive-fonts-extra latexmk
+      - uses: typst-community/checkout@master
           
-      - name: Run LaTeX
+      - name: Run Typst
         run: |
-          latexmk -f -pdf resume.tex
-          latexmk -c
+          typst compile typst/rajeev_atla_resume.typ resume.pdf
+          typst compile --ppi 1200 typst/rajeev_atla_resume.typ resume.png
 
       - name: Copy resume file
         run: |
