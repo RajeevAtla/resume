@@ -34,7 +34,7 @@ jobs:
       - uses: typst-community/setup-typst@v4
         with:
           typst-version: latest
-          allow-prerelease: true
+          allow-prereleases: true
           
       - name: Run Typst
         run: |
