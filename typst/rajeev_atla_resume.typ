@@ -51,7 +51,7 @@ Relevant Coursework: Reinforcement Learning, Multimodal Machine Learning, High P
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2021", end-date: "May 2025"),
-    degree: "Triple Major (BS) in Computer Science, Computer Engineering, and Data Science",
+    degree: "BS (Triple Major) in Computer Science, Computer Engineering, and Data Science",
     consistent: true,
 )
 
