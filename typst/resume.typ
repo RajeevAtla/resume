@@ -1,5 +1,3 @@
-#import "@preview/scienceicons:0.1.0": orcid-icon
-
 #let resume(
     author: "",
     author-position: left,
