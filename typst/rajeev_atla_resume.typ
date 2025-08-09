@@ -44,19 +44,15 @@
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
-    
-    
-    
-    
-   
-    
+
+
     degree: "MS in Computer Engineering (Specialization in Machine Learning)",
     consistent: true,
 )
 
-Relevant Coursework: 
-Reinforcement Learning, 
-Multimodal Machine Learning, 
+Relevant Coursework:
+Reinforcement Learning,
+Multimodal Machine Learning,
 High Performance & Distributed Computing
 
 #edu(
