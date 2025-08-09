@@ -2,7 +2,7 @@
     author: "",
     author-position: left,
     personal-info-position: left,
-    pronouns: "",
+    visa: "",
     location: "",
     email: "",
     github: "",
@@ -84,7 +84,7 @@
         align(personal-info-position)[
             #{
                 let items = (
-                    contact-item(pronouns),
+                    contact-item(visa),
                     contact-item(phone, link-type: "tel:"),
                     contact-item(location),
                     contact-item(email, link-type: "mailto:"),
@@ -92,7 +92,7 @@
                     contact-item(linkedin, link-type: "https://"),
                     contact-item(personal-site, link-type: "https://"),
                 )
-                items.filter(x => x != none).join("  |  ")
+                items.filter(x => x != none).join(" | ")
             }
         ],
     )

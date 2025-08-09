@@ -1,4 +1,4 @@
-#import "resume.typ": *
+#import "template.typ": *
 
 #set page(margin: (
     top: 0cm,
@@ -9,7 +9,7 @@
 #let email = "rajeevatla101@gmail.com"
 #let github = "github.com/RajeevAtla"
 #let linkedin = "linkedin.com/in/rajeev-atla"
-#let phone = "+1 (732) 209-3995"
+#let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
 
 #show: resume.with(
@@ -17,6 +17,7 @@
     // All the lines below are optional.
     // For example, if you want to to hide your phone number:
     // feel free to comment those lines out and they will not show.
+    visa: "US Citizen",
     email: email,
     github: github,
     linkedin: linkedin,
@@ -37,15 +38,26 @@
 
 == Education
 
+#let part = int(sys.inputs.at("part", default: "0"))
+
 #edu(
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
+    
+    
+    
+    
+   
+    
     degree: "MS in Computer Engineering (Specialization in Machine Learning)",
     consistent: true,
 )
 
-Relevant Coursework: Reinforcement Learning, Multimodal Machine Learning, High Performance & Distributed Computing
+Relevant Coursework: 
+Reinforcement Learning, 
+Multimodal Machine Learning, 
+High Performance & Distributed Computing
 
 #edu(
     institution: "Rutgers University - School of Engineering",
