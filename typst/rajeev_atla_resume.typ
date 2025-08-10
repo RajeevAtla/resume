@@ -41,36 +41,36 @@
 #let position = sys.inputs.at("title", default: "default")
 
 #if position == "default" {
-  edu(
-    institution: "Rutgers University - School of Engineering",
-    location: "New Brunswick, NJ",
-    dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
-    degree: "MS in Computer Engineering (Specialization in Machine Learning)",
-    consistent: true
-  )
+    edu(
+        institution: "Rutgers University - School of Engineering",
+        location: "New Brunswick, NJ",
+        dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+        degree: "MS in Computer Engineering (Specialization in Machine Learning)",
+        consistent: true,
+    )
 } else if position == "intern" {
-  edu(
-    institution: "Rutgers University - School of Engineering",
-    location: "New Brunswick, NJ",
-    dates: dates-helper(start-date: "Sep 2025", end-date: "Dec 2026"),
-    degree: "MS in Computer Engineering (Specialization in Machine Learning)",
-    consistent: true
-  )
+    edu(
+        institution: "Rutgers University - School of Engineering",
+        location: "New Brunswick, NJ",
+        dates: dates-helper(start-date: "Sep 2025", end-date: "Dec 2026"),
+        degree: "MS in Computer Engineering (Specialization in Machine Learning)",
+        consistent: true,
+    )
 } else if position == "fulltime" {
-  edu(
-    institution: "Rutgers University - School of Engineering",
-    location: "New Brunswick, NJ",
-    dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
-    degree: "MS in Computer Engineering (Specialization in Machine Learning)",
-    consistent: true
-  )
+    edu(
+        institution: "Rutgers University - School of Engineering",
+        location: "New Brunswick, NJ",
+        dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
+        degree: "MS in Computer Engineering (Specialization in Machine Learning)",
+        consistent: true,
+    )
 }
 
 #if position != "BS" {
-  [Coursework:
-  Reinforcement Learning,
-  Multimodal AI,
-  High Performance & Distributed Computing]
+    [Coursework:
+        Reinforcement Learning,
+        Multimodal AI,
+        High Performance & Distributed Computing]
 }
 
 #edu(
