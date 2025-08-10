@@ -51,7 +51,7 @@
     )
 
     show link: set text(
-        fill: rgb(accent-color),
+      fill: rgb("0000FF"),
     )
 
     // Name will be aligned left, bold and big

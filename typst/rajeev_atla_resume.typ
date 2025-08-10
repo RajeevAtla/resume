@@ -44,8 +44,6 @@
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
-
-
     degree: "MS in Computer Engineering (Specialization in Machine Learning)",
     consistent: true,
 )
