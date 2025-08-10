@@ -32,7 +32,7 @@
 
 
 #set list(
-    indent: -0in,
+    indent: 0in,
     body-indent: 0.125em,
 )
 
@@ -98,7 +98,7 @@ Computer Vision
 - *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Jenkins, Docker, Kubernetes
-- *Tools & Databases*: Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
+- *Tools & Databases*: Jupyter, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
 
 == Work Experience
 
