@@ -37,9 +37,9 @@
 
     // Link styles
     show link: underline
-    
+
     show link: set text(
-      fill: rgb("0000FF"),
+        fill: rgb("0000FF"),
     )
 
     // Small caps for section titles
