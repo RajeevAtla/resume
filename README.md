@@ -16,4 +16,4 @@ This resume template was inspired by [Jake's Resume](https://github.com/jakegut/
 
 ## Preview
 
-![Resume](/img/resume.png "Resume")
+![Resume](/img/resume_LQ.png "Image of Rajeev Atla's Resume")
