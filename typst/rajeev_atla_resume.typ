@@ -38,7 +38,7 @@
 
 == Education
 
-#let position = sys.inputs.at("title", default: "default")
+#let position = sys.inputs.at("position", default: "default")
 
 #if position == "default" {
     edu(

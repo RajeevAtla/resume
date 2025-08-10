@@ -38,7 +38,10 @@ jobs:
           
       - name: Run Typst
         run: |
-          typst compile typst/rajeev_atla_resume.typ resume.pdf
+          typst compile typst/rajeev_atla_resume.typ resume.pdf --input=position=default &
+          typst compile typst/rajeev_atla_resume.typ resume_intern.pdf --input=position=intern &
+          typst compile typst/rajeev_atla_resume.typ resume_fulltime.pdf --input=position=fulltime &
+          typst compile typst/rajeev_atla_resume.typ resume_BS.pdf --input=position=BS &
           typst compile --ppi 1200 typst/rajeev_atla_resume.typ resume.png
 
       - name: Copy resume file
