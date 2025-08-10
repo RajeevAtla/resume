@@ -37,7 +37,10 @@
 
     // Link styles
     show link: underline
-
+    
+    show link: set text(
+      fill: rgb("0000FF"),
+    )
 
     // Small caps for section titles
     show heading.where(level: 2): it => [
@@ -45,14 +48,7 @@
         #line(length: 100%, stroke: 1pt)
     ]
 
-    // Accent Color Styling
-    show heading: set text(
-        fill: rgb(accent-color),
-    )
-
-    show link: set text(
-      fill: rgb("0000FF"),
-    )
+    
 
     // Name will be aligned left, bold and big
     show heading.where(level: 1): it => [

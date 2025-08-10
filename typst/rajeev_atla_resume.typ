@@ -48,9 +48,9 @@
     consistent: true,
 )
 
-Relevant Coursework:
+Coursework:
 Reinforcement Learning,
-Multimodal Machine Learning,
+Multimodal AI,
 High Performance & Distributed Computing
 
 #edu(
@@ -61,7 +61,7 @@ High Performance & Distributed Computing
     consistent: true,
 )
 
-Relevant Coursework:
+Coursework:
 Machine Learning,
 AI,
 Deep Learning,
@@ -72,12 +72,13 @@ Statistical Inference,
 Stochastic Processes,
 Algorithms,
 Computer Vision
+
 == Skills
 - *Programming Languages*: Python, R, SQL, Java, C/C++, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Jenkins, Docker, Kubernetes
-- *Tools & Databases*: Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Emacs, Zed
+- *Tools & Databases*: Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
 
 == Work Experience
 
