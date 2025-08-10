@@ -98,7 +98,7 @@ Computer Vision
 - *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Jenkins, Docker, Kubernetes
-- *Tools & Databases*: Jupyter, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
+- *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
 
 == Work Experience
 
@@ -109,7 +109,7 @@ Computer Vision
     dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
-- Integrated a PyTorch inference system into microservices architecture, *improving mean response time by 96 milliseconds*
+- Integrated a PyTorch inference system into Kafka-microservices architecture, *improving mean response time by 96 milliseconds*
 - Updated codebase from ES5 to ES7 using HTML, CSS, and TypeScript, resulting in *23% faster mean page loads*
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
 == Projects
