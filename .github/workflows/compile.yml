@@ -37,7 +37,7 @@ jobs:
           allow-prereleases: true
           
       - name: Run Typst
-        run: |
+        run: &
           typst compile typst/rajeev_atla_resume.typ resume.pdf
           typst compile --ppi 1200 typst/rajeev_atla_resume.typ resume.png
 
