@@ -48,7 +48,18 @@
         #line(length: 100%, stroke: 1pt)
     ]
 
+<<<<<<< HEAD
     
+=======
+    // Accent Color Styling
+    show heading: set text(
+        fill: rgb(accent-color),
+    )
+
+    show link: set text(
+        fill: rgb("0000FF"),
+    )
+>>>>>>> f4c4e3e6f9e45eb26b9497cc22dfb00d027ca02a
 
     // Name will be aligned left, bold and big
     show heading.where(level: 1): it => [
