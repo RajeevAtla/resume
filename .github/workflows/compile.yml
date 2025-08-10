@@ -42,6 +42,7 @@ jobs:
           typst compile typst/rajeev_atla_resume.typ pdf/resume_intern.pdf --input position=intern &
           typst compile typst/rajeev_atla_resume.typ pdf/resume_fulltime.pdf --input position=fulltime &
           typst compile typst/rajeev_atla_resume.typ pdf/resume_BS.pdf --input position=BS &
+          typst compile typst/rajeev_atla_resume.typ img/resume_LQ.png --input position=default &
           typst compile --ppi 1200 typst/rajeev_atla_resume.typ img/resume.png
 
       - name: Copy resume file
