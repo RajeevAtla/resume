@@ -94,7 +94,7 @@ Algorithms,
 Computer Vision
 
 == Skills
-- *Programming Languages*: Python, R, SQL, Java, C/C++, Rust, Elixir, MATLAB, Bash
+- *Programming Languages*: Python, R, SQL, Java/Scala, C/C++, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Docker, Kubernetes
