@@ -70,7 +70,7 @@
     [Coursework:
         Reinforcement Learning,
         Multimodal AI,
-        High Performance & Distributed Computing]
+        High Performance/Distributed Computing]
 }
 
 #edu(
@@ -82,9 +82,7 @@
 )
 
 Coursework:
-Machine Learning,
 AI,
-Deep Learning,
 Distributed Deep Learning,
 Data Science,
 Statistical Learning,
@@ -95,7 +93,7 @@ Computer Vision
 
 == Skills
 - *Programming Languages*: Python, R, SQL, Java/Scala, C/C++, Rust, Elixir, MATLAB, Bash
-- *Libraries/Frameworks*: NumPy, PyTorch, PyTorch Lightning, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
+- *Libraries/Frameworks*: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Docker, Kubernetes
 - *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
