@@ -112,7 +112,16 @@ Computer Vision
 - Integrated PyTorch inference into Kafka-microservices architecture, *improving mean response time by 96 milliseconds*
 - Updated codebase from ES5 to ES7 using HTML, CSS, and TypeScript, resulting in *23% faster mean page loads*
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
+
 == Projects
+
+#project(
+    name: "dexMCP",
+    url: "https://bit.ly/dexmcp"
+)
+- Engineered Model Context Protocol (MCP) server exposing 5+ reusable tools and 5+ Pydantic models
+- Implemented parameter validation across 20+ typed fields and 100% of tool inputs
+- Built asynchronous client using DSPy to auto-discover tools and execute multi-step requests
 
 #project(
     name: "SuperconGAN",
