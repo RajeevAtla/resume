@@ -131,17 +131,15 @@ Computer Vision
 - Implemented a F1-based linear term-frequency bigram NLP model to *achieve 90.5% accuracy*
 - Extracted data from *25,000+ movie reviews* with Pandas and *removed 20+ stopwords* to improve model performance
 - Created confusion matrices and data visualizations for *5+ models* using Seaborn
-- Presented results in annual data science competition in local community, *placing 3rd place out of 15+ teams*
 
 #project(
-    name: "Cityscape",
+    name: "Cityscape (2nd at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
 - Lead a *team of 4* in designing and implementing a city tour mobile app, resulting in *100+ vivid city tours* for users
 - Wrote controllers and models for MongoDB using MongooseORM to store *30+ kB of geographic data* in NoSQL schema
 - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
-- Overhauled Google Slides pitch deck to win *2nd overall at HackExeter 2021*
 
 #project(
     name: "EyeQ",
