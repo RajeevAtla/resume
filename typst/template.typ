@@ -131,6 +131,15 @@
     ]
 }
 
+// Normalizes URLs to include a scheme before linking.
+#let ensure-url(url) = if url == "" {
+    none
+} else if "://" in url {
+    url
+} else {
+    "https://" + url
+}
+
 // Cannot just use normal --- ligature becuase ligatures are disabled for good reasons
 #let dates-helper(
     start-date: "",
@@ -188,17 +197,18 @@
     url: "",
     dates: "",
 ) = {
+    let resolved-url = ensure-url(url)
     generic-one-by-two(
         left: {
             if role == "" {
-                [*#name* #if url != "" and dates != "" [ (#link("https://" + url)[#url])]]
+                [*#name* #if resolved-url != none and dates != "" [ (#link(resolved-url)[#url])]]
             } else {
-                [*#role*, #name #if url != "" and dates != "" [ (#link("https://" + url)[#url])]]
+                [*#role*, #name #if resolved-url != none and dates != "" [ (#link(resolved-url)[#url])]]
             }
         },
         right: {
-            if dates == "" and url != "" {
-                link("https://" + url)[#url]
+            if dates == "" and resolved-url != none {
+                link(resolved-url)[#url]
             } else {
                 dates
             }
@@ -212,10 +222,11 @@
     url: "",
     date: "",
 ) = {
+    let resolved-url = ensure-url(url)
     [
         *#name*, #issuer
-        #if url != "" {
-            [ (#link("https://" + url)[#url])]
+        #if resolved-url != none {
+            [ (#link(resolved-url)[#url])]
         }
         #h(1fr) #date
     ]
