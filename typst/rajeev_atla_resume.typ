@@ -116,7 +116,7 @@ Computer Vision
 )
 - Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
 - Implemented parameter validation across *20+ typed fields* and *100% of tool inputs*
-- Built asynchronous client using DSPy to auto-discover tools and execute multi-step requests
+- Built asynchronous clients using DSPy and Langchain to auto-discover tools and execute multi-step requests
 
 #project(
     name: "SuperconGAN",
