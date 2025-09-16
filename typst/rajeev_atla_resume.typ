@@ -86,9 +86,6 @@ AI,
 Distributed Deep Learning,
 Data Science,
 Statistical Learning,
-Statistical Inference,
-Stochastic Processes,
-Algorithms,
 Computer Vision
 
 == Skills
@@ -117,8 +114,8 @@ Computer Vision
     name: "dexMCP",
     url: "https://bit.ly/dexmcp",
 )
-- Engineered Model Context Protocol (MCP) server exposing 5+ reusable tools and 5+ Pydantic models
-- Implemented parameter validation across 20+ typed fields and 100% of tool inputs
+- Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
+- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs*
 - Built asynchronous client using DSPy to auto-discover tools and execute multi-step requests
 
 #project(
