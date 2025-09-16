@@ -133,7 +133,7 @@ Computer Vision
 - Created confusion matrices and data visualizations for *5+ models* using Seaborn
 
 #project(
-    name: "Cityscape (2nd at HackExeter 2021)",
+    name: "Cityscape (2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
 - Lead a *team of 4* in designing and implementing a city tour mobile app, resulting in *100+ vivid city tours* for users
