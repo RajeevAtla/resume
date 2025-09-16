@@ -147,7 +147,6 @@ Computer Vision
     name: "EyeQ",
     url: "https://bit.ly/3RsAyBL",
 )
-- Spearheaded *team of 5* to improve experiences for visually impaired people
-- Developed Elixir-based application to transcribe images and documents *up to 1 GB in size*
+- Developed Elixir-Rust NIF application to transcribe images and documents *up to 1 GB in size*
 - *Reduced Docker image size by 53%*, accelerating the build pipeline
 - Improved and streamlined Phoenix server and React dashboard to ensure *average latency is < 3s*
