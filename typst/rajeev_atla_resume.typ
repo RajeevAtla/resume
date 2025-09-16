@@ -117,7 +117,7 @@ Computer Vision
 
 #project(
     name: "dexMCP",
-    url: "https://bit.ly/dexmcp"
+    url: "https://bit.ly/dexmcp",
 )
 - Engineered Model Context Protocol (MCP) server exposing 5+ reusable tools and 5+ Pydantic models
 - Implemented parameter validation across 20+ typed fields and 100% of tool inputs
