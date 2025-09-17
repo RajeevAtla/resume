@@ -80,6 +80,7 @@
     degree: "BS (Triple Major) in Computer Science, Computer Engineering, and Data Science",
     consistent: true,
 )
+
 Eleanor and Samuel Sneath Endowed Scholarship
 
 Coursework:
