@@ -81,7 +81,7 @@
     consistent: true,
 )
 
-Eleanor and Samuel Sneath Endowed Scholarship
+Eleanor and Samuel Sneath Endowed Scholarship (awarded to 10 engineering students/year)
 
 Coursework:
 AI,
