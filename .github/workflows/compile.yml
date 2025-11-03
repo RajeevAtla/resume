@@ -35,6 +35,7 @@ jobs:
           
       - name: Run Typst
         run: |
+          typst --version
           typst compile typst/rajeev_atla_resume.typ pdf/resume.pdf --input position=default &
           typst compile typst/rajeev_atla_resume.typ pdf/Rajeev_Atla_resume_intern.pdf --input position=intern &
           typst compile typst/rajeev_atla_resume.typ pdf/Rajeev_Atla_resume_fulltime.pdf --input position=fulltime &

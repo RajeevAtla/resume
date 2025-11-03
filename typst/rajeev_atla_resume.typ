@@ -130,15 +130,6 @@ Computer Vision
 - Authored a LaTeX paper on findings and future scope, *incorporating 500,000+ data points* effectively
 
 #project(
-    name: "IMDB Movie Review Sentiment Analysis",
-    url: "https://bit.ly/3C3RpWK",
-)
-- Led *team of 5* to use Scikit-learn and Pandas to classify IMDB movie reviews
-- Implemented a F1-based linear term-frequency bigram NLP model to *achieve 90.5% accuracy*
-- Extracted data from *25,000+ movie reviews* with Pandas and *removed 20+ stopwords* to improve model performance
-- Created confusion matrices and data visualizations for *5+ models* using Seaborn
-
-#project(
     name: "Cityscape (2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
@@ -154,3 +145,9 @@ Computer Vision
 - Developed Elixir-Rust NIF application to transcribe images and documents *up to 1 GB in size*
 - *Reduced Docker image size by 53%*, accelerating the build pipeline
 - Improved and streamlined Phoenix server and React dashboard to ensure *average latency is < 3s*
+
+== Certifications
+
+- Oracle (OCI): AI Foundations Associate, Generative AI Professional, Data Science Professional, 
+#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8")[Vector AI Search Professional]
+- AWS: Certified Cloud Practitioner
