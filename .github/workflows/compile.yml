@@ -51,7 +51,7 @@ jobs:
           
       - name: Commit files
         run: |
-          git config user.email github-actions@github.com
+          git config user.email github-actions[bot]@users.noreply.github.com
           git config user.name github-actions[bot]
           git add .
           git commit -m "compile resume and add generated resume.pdf files"
