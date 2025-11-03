@@ -148,6 +148,8 @@ Computer Vision
 
 == Certifications
 
-- Oracle (OCI): AI Foundations Associate, Generative AI Professional, Data Science Professional, 
-#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8")[Vector AI Search Professional]
+- Oracle (OCI): AI Foundations Associate, Generative AI Professional, Data Science Professional,
+#link(
+    "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8",
+)[Vector AI Search Professional]
 - AWS: Certified Cloud Practitioner
