@@ -12,6 +12,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      attestations: write
+    
     steps:
       - uses: actions/checkout@master
         with:
@@ -32,10 +36,13 @@ jobs:
         with:
           typst-version: latest
           allow-prereleases: true
-          
-      - name: Run Typst
-        run: |
+      
+      - name: Check Typst Version
+        run:
           typst --version
+      
+      - name: Compile Typst
+        run: |
           typst compile typst/rajeev_atla_resume.typ pdf/resume.pdf --input position=default &
           typst compile typst/rajeev_atla_resume.typ pdf/Rajeev_Atla_resume_intern.pdf --input position=intern &
           typst compile typst/rajeev_atla_resume.typ pdf/Rajeev_Atla_resume_fulltime.pdf --input position=fulltime &
