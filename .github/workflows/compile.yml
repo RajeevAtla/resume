@@ -69,7 +69,7 @@ jobs:
           branch: ${{ github.ref }}
           
       - name: Attest
-        uses: actions/attest-build-provenance@v3
+        uses: actions/attest-build-provenance@master
         with:
           subject-path: |
             pdf/
