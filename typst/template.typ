@@ -29,7 +29,6 @@
         ligatures: false,
     )
 
-    
 
     // Link styles
     show link: underline
