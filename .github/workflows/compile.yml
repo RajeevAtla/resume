@@ -50,6 +50,7 @@ jobs:
           typst compile typst/rajeev_atla_resume.typ pdf/Rajeev_Atla_resume_BS.pdf --input position=BS &
           typst compile typst/rajeev_atla_resume.typ img/resume_LQ.png --input position=default &
           typst compile --ppi 1200 typst/rajeev_atla_resume.typ img/resume.png
+          typst compile --features html typst/rajeev_atla_resume.typ html/resume.html --input html=html
 
       - name: Copy resume file
         run: |
@@ -60,7 +61,7 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com
           git config user.name github-actions[bot]
           git add .
-          git commit -m "build: 🔥 Built resume + dropped shiny PDFs into repo 📄✨"
+          git commit -m "build: 🔥 Compiled resume + dropped shiny PDFs into repo 📄✨"
 
       - name: Push
         uses: ad-m/github-push-action@master
