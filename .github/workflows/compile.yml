@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
           submodules: recursive
 
-      - uses: taiki-e/cache-cargo-install-action@master
+      - uses: taiki-e/cache-cargo-install-action@main
         with:
           tool: typstyle
           
