@@ -148,13 +148,15 @@ Computer Vision
 
 == Certifications
 
-
-- *Oracle (OCI)*: #link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=13B424A52FAC66888CE002F8FDFD03FE72573248AD549080F85BC11D522388E6")[AI Foundations Associate],
-#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=4E6A2DD94215E77B8B87E4525DF387411A640BAB65D7201AB0B1D2D24CED0B6A")[Generative AI Professional],
-#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6DF3AA55B1FD67438560857EFA59468400814337EAD29CD74174A68C3AD9DF1")[Data Science Professional],
-#link(
-    "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8",
-)[Vector AI Search Professional]
+#list(
+    *Oracle (OCI)*:
+    link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=13B424A52FAC66888CE002F8FDFD03FE72573248AD549080F85BC11D522388E6")[AI Foundations Associate],
+    link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=4E6A2DD94215E77B8B87E4525DF387411A640BAB65D7201AB0B1D2D24CED0B6A")[Generative AI Professional],
+    link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6DF3AA55B1FD67438560857EFA59468400814337EAD29CD74174A68C3AD9DF1")[Data Science Professional],
+    link(
+        "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8",
+    )[Vector AI Search Professional]
+)
 
 - AWS: Certified Cloud Practitioner
 
