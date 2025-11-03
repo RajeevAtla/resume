@@ -60,7 +60,7 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com
           git config user.name github-actions[bot]
           git add .
-          git commit -m "compile resume and add generated resume.pdf files"
+          git commit -m "build: 🔥 Built resume + dropped shiny PDFs into repo 📄✨"
 
       - name: Push
         uses: ad-m/github-push-action@master
