@@ -158,5 +158,5 @@ Computer Vision
         )[Vector AI Search Professional]],
 )
 
-- AWS: Certified Cloud Practitioner
+- *AWS*: Certified Cloud Practitioner
 
