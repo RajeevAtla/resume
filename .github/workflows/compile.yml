@@ -33,7 +33,7 @@ jobs:
           typstyle rajeev_atla_resume.typ template.typ --inplace --indent-width 4 --verbose --timing
           cd ..
           
-      - uses: typst-community/setup-typst@main
+      - uses: typst-community/setup-typst@latest
         with:
           typst-version: latest
           allow-prereleases: true
