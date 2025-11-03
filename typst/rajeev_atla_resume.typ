@@ -1,16 +1,12 @@
 #import "template.typ": *
 
-#let html = sys.inputs.at("html", default: "false")
-
-#if html == "false" {
-  set page(margin: (
-      top: 0cm,
-  ))
-  set page(
-      margin: 0.25in, // Reccomended to have 0.5in margin on all sides
-      paper: "us-letter",
-  )
-}
+#set page(margin: (
+    top: 0cm,
+))
+#set page(
+    margin: 0.25in, // Reccomended to have 0.5in margin on all sides
+    paper: "us-letter",
+)
 
 // Put your personal information here, replacing mine
 #let name = "Rajeev Atla"
