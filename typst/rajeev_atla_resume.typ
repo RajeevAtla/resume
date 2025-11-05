@@ -161,4 +161,4 @@ Computer Vision
         )[Vector AI Search Professional]],
 )
 
-- *AWS*: Certified Cloud Practitioner
+- *AWS*: #link("https://cp.certmetrics.com/amazon/en/public/verify/credential/2a24b581901e4be197fee427ddb182b7")[Certified Cloud Practitioner]
