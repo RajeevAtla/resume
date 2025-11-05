@@ -84,7 +84,7 @@
     consistent: true,
 )
 
-Eleanor and Samuel Sneath Endowed Scholarship (awarded to full-time engineering students based on merit)
+Eleanor and Samuel Sneath Endowed Scholarship (awarded to a full-time engineering student based on merit)
 
 Coursework:
 AI,
