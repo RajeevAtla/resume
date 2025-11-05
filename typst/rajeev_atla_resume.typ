@@ -98,7 +98,7 @@ Computer Vision
 - *Libraries/Frameworks*: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure, GitHub Actions, Docker, Kubernetes
-- *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
+- *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex CLI
 
 == Work Experience
 
