@@ -97,7 +97,7 @@ Computer Vision
 - *Programming Languages*: Python, R, SQL, Java/Scala, C/C++, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
-- *Cloud & DevOps*: AWS, Microsoft Azure, Vercel, GitHub Actions, Docker, Kubernetes
+- *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure, GitHub Actions, Docker, Kubernetes
 - *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
 
 == Work Experience
