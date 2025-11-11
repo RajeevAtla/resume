@@ -159,9 +159,11 @@ Computer Vision
         #link(
             "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7D830D9EAD09139AEF50FBE30832C50E40C736425C432E7E1407F397FA3B76A8",
         )[Vector AI Search Professional]],
-    [*AWS*: 
+    [*AWS*:
         #link("https://cp.certmetrics.com/amazon/en/public/verify/credential/2a24b581901e4be197fee427ddb182b7")[Certified Cloud Practitioner],
         #link("https://cp.certmetrics.com/amazon/en/public/verify/credential/c50dee26623044ebae5fb1fcea7eacbe")[Certified Machine Learning Specialist],
-        #link("https://cp.certmetrics.com/amazon/en/public/verify/credential/f462323f53414e4bae42b76f9623fbe7")[Certified AI Practitioner]
-    ]
+        #link(
+            "https://cp.certmetrics.com/amazon/en/public/verify/credential/f462323f53414e4bae42b76f9623fbe7",
+        )[Certified AI Practitioner]
+    ],
 )
