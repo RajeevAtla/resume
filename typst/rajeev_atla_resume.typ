@@ -94,7 +94,7 @@ Statistical Learning,
 Computer Vision
 
 == Skills
-- *Programming Languages*: Python, R, SQL, Java/Scala, C/C++, Rust, Elixir, MATLAB, Bash
+- *Programming Languages*: Python, R, SQL, Java/Scala, C/C++/CUDA, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure, GitHub Actions, Docker, Kubernetes
