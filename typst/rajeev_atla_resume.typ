@@ -80,7 +80,7 @@
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2021", end-date: "May 2025"),
-    degree: "BS (Triple Major) in Computer Engineering, Computer Science, and Data Science",
+    degree: "BS (Triple Major) in Electrical & Computer Engineering, Computer Science, and Data Science",
     consistent: true,
 )
 
@@ -97,8 +97,8 @@ Computer Vision
 - *Programming Languages*: Python, R, SQL, Java/Scala, C/C++/CUDA, Rust, Elixir, MATLAB, Bash
 - *Libraries/Frameworks*: NumPy, PyTorch, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
-- *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure, GitHub Actions, Docker, Kubernetes
-- *Tools & Databases*: Jupyter, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex CLI
+- *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure (OCI), GitHub Actions, Docker, Kubernetes
+- *Tools & Databases*: Jupyter Notebooks, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex CLI
 
 == Work Experience
 
@@ -127,7 +127,7 @@ Computer Vision
     name: "SuperconGAN",
     url: "https://bit.ly/3z7JaqZ",
 )
-- Built a PyTorch-based GAN to model superconductivity data, enhancing generative AI applications
+- Built a PyTorch-based GAN to model superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*79,000+ downloads*] and widespread adoption
 - Authored a LaTeX paper on findings and future scope, *incorporating 500,000+ data points* effectively
