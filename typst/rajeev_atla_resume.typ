@@ -99,7 +99,7 @@ Computer Vision
 - *AI/ML Libraries*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure (OCI), GitHub Actions, Docker, Kubernetes
-- *Tools & Databases*: Jupyter Notebooks, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex CLI
+- *Tools & Databases*: Jupyter Notebooks, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
 
 == Certifications
 
