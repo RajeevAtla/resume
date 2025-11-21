@@ -84,7 +84,7 @@
     consistent: true,
 )
 
-Eleanor and Samuel Sneath Endowed Scholarship (awarded to a full-time engineering student based on merit)
+Eleanor and Samuel Sneath Merit Scholarship for Engineering Students
 
 Coursework:
 AI,
@@ -94,7 +94,7 @@ Statistical Learning,
 Computer Vision
 
 == Skills
-- *Programming Languages*: Python, R, SQL, Java/Scala, C/C++/CUDA, Rust, Elixir, MATLAB, Bash
+- *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, Rust, Bash
 - *AI/ML Libraries*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, NLTK, LangChain/LangGraph
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, Oracle Cloud Infrastructure (OCI), GitHub Actions, Docker, Kubernetes
@@ -129,7 +129,7 @@ Computer Vision
 )
 - Built a PyTorch-based GAN to model superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
-- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*79,000+ downloads*] and widespread adoption
+- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000+ downloads*] and widespread adoption
 - Authored a LaTeX paper on findings and future scope, *incorporating 500,000+ data points* effectively
 
 #project(
