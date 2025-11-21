@@ -84,7 +84,7 @@
     consistent: true,
 )
 
-Recipient of Eleanor and Samuel Sneath Merit Scholarship for Engineering Students
+Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Engineering Students
 
 Coursework:
 AI,
