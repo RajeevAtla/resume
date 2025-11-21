@@ -48,7 +48,7 @@
         institution: "Rutgers University - School of Engineering",
         location: "New Brunswick, NJ",
         dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
-        degree: "*Master of Science* in Computer Engineering (Specialization in Machine Learning)",
+        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
         consistent: true,
     )
 } else if position == "intern" {
@@ -56,7 +56,7 @@
         institution: "Rutgers University - School of Engineering",
         location: "New Brunswick, NJ",
         dates: dates-helper(start-date: "Sep 2025", end-date: "Dec 2026"),
-        degree: "*Master of Science* in Computer Engineering (Specialization in Machine Learning)",
+        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
         consistent: true,
     )
 } else if position == "fulltime" {
@@ -64,7 +64,7 @@
         institution: "Rutgers University - School of Engineering",
         location: "New Brunswick, NJ",
         dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
-        degree: "*Master of Science* in Computer Engineering (Specialization in Machine Learning)",
+        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
         consistent: true,
     )
 }
@@ -80,7 +80,7 @@
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
     dates: dates-helper(start-date: "Sep 2021", end-date: "May 2025"),
-    degree: "*Bachelor of Science* (Triple Major) in Computer Engineering, Computer Science, and Data Science",
+    degree: [*Bachelor of Science* (Triple Major) in Computer Engineering, Computer Science, and Data Science],
     consistent: true,
 )
 
