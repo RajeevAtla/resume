@@ -167,7 +167,7 @@ Computer Vision
 - Authored a LaTeX paper on findings and future scope, *incorporating 500,000+ data points* effectively
 
 #project(
-    name: "Cityscape (2nd Overall at HackExeter 2021)",
+    name: "Cityscape (Won 2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
 - Designed and implemented a city tour mobile app, resulting in *100+ vivid city tours* for users
