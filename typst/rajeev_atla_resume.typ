@@ -130,7 +130,8 @@ Computer Vision
     dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
-- Integrated PyTorch inference into Kafka-microservices architecture, *improving mean response time by 96 milliseconds*
+- *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into existing Kafka microservices
+- Created a Retrieval-Augmented Generation (RAG) system for an AI-powered search tool
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
 
 == Projects
