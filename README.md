@@ -4,7 +4,7 @@
 ## About
 
 This repo contains source code ([Typst](https://typst.app/docs/)) for my resume.
-It's continuously integrated and deployed using GitHub Actions and is recompiled hourly (see above for workflow status).
+It's continuously integrated and deployed using GitHub Actions and is recompiled on push (see above for workflow status).
 It's linted using [`typstyle`](https://typstyle-rs.github.io/typstyle/).
 
 It's a template, so that you can generate your own resume using this format.
