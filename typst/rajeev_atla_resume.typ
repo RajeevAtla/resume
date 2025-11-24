@@ -1,7 +1,7 @@
 #import "template.typ": *
 
 #set page(margin: (
-    top: 0cm,
+    top: 0.125in,
 ))
 #set page(
     margin: 0.25in, // Reccomended to have 0.5in margin on all sides
@@ -163,11 +163,15 @@ Computer Vision
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
 
 #project(
-    name: "EyeQ",
-    url: "https://bit.ly/3RsAyBL",
+  name: "DocuMint",
+  url: "https://bit.ly/DocuMint",
 )
-- Developed Elixir-Rust NIF application to transcribe images and documents *up to 1 GB in size*
-- *Reduced Docker image size by 53%*, accelerating the build pipeline
-- Improved and streamlined Phoenix server and React dashboard to ensure *average latency is < 3s*
-
-
+- Built end-to-end LangGraph + Gemini doc-modernizer with Gradio: 
+  fetch→analyze→research→generate→quality-check pipeline, 
+  robust HTML→Markdown ingestion, JSON parsing, structured logging; achieved 90%+ modernization coverage on sample docs,
+  cut manual edit time 50%, hardened with 8 deterministic pytest cases and network-safe
+  skips
+- Implemented CI with uv caching, Ruff linting, and pytest across Python 3.11–3.13,
+  reducing CI wall-clock by 65% and eliminating lint escapes; migrated LLM stack to Gemini
+  via the OpenAI-compatible endpoint with env-driven model/key selection, enabling vendor
+  flexibility and reproducible builds via uv.lock
