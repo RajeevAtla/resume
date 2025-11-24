@@ -124,14 +124,13 @@ Computer Vision
 == Work Experience
 
 #work(
-    title: "Software Engineering Intern",
+    title: "AI Engineering Intern",
     location: "Remote",
     company: "Atlait Inc.",
     dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - Integrated PyTorch inference into Kafka-microservices architecture, *improving mean response time by 96 milliseconds*
-- Updated codebase from ES5 to ES7 using HTML, CSS, and TypeScript, resulting in *23% faster mean page loads*
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
 
 == Projects
