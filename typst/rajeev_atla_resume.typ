@@ -155,9 +155,7 @@ Computer Vision
 - Authored modular AI agents
     (fetcher, analyzer, researcher, generator, quality-checker)
     with structured prompts and severity-prioritized research,
-    *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%* through top-issue capping,
-    content truncation,
-    and batching
+    *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
 
 #project(
     name: "SuperconGAN",
