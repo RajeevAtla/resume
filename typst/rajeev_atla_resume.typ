@@ -163,16 +163,16 @@ Computer Vision
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
 
 #project(
-  name: "DocuMint",
-  url: "https://bit.ly/DocuMint",
+    name: "DocuMint",
+    url: "https://bit.ly/DocuMint",
 )
-- Built a 5-agent LangGraph + Gemini doc-modernizer with Gradio, 
-  achieved *90%+ modernization coverage* on sample docs,
-  *cut manual edit time 50%* with a *4-tab UX*, 
-  hardened with *8 deterministic pytest cases* and network-safe skips
-- Authored modular agents 
-  (fetcher, analyzer, researcher, generator, quality-checker)
-  with structured prompts and severity-prioritized research,
-  *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%* through top-issue capping,
-  content truncation,
-  and batching
+- Built a 5-agent LangGraph + Gemini doc-modernizer with Gradio,
+    achieved *90%+ modernization coverage* on sample docs,
+    *cut manual edit time 50%* with a *4-tab UX*,
+    hardened with *8 deterministic pytest cases* and network-safe skips
+- Authored modular agents
+    (fetcher, analyzer, researcher, generator, quality-checker)
+    with structured prompts and severity-prioritized research,
+    *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%* through top-issue capping,
+    content truncation,
+    and batching
