@@ -70,7 +70,7 @@
 }
 
 #if position != "BS" {
-    [Coursework:
+    [#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
         Reinforcement Learning,
         Multimodal AI,
         High Performance/Distributed Computing]
@@ -86,7 +86,7 @@
 
 Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Engineering Students
 
-Coursework:
+#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
 AI,
 Distributed Deep Learning,
 Data Science,
