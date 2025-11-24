@@ -131,7 +131,7 @@ Computer Vision
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
-- Created a Retrieval-Augmented Generation (RAG) system for an AI-powered search tool
+- Created a Retrieval-Augmented Generation (RAG) system for an AI-powered search, enabling contextual search of historical content
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
 
 == Projects
