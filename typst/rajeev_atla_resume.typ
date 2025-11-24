@@ -166,12 +166,13 @@ Computer Vision
   name: "DocuMint",
   url: "https://bit.ly/DocuMint",
 )
-- Built end-to-end LangGraph + Gemini doc-modernizer with Gradio: 
-  fetch→analyze→research→generate→quality-check pipeline, 
-  robust HTML→Markdown ingestion, JSON parsing, structured logging; achieved 90%+ modernization coverage on sample docs,
-  cut manual edit time 50%, hardened with 8 deterministic pytest cases and network-safe
-  skips
-- Implemented CI with uv caching, Ruff linting, and pytest across Python 3.11–3.13,
-  reducing CI wall-clock by 65% and eliminating lint escapes; migrated LLM stack to Gemini
-  via the OpenAI-compatible endpoint with env-driven model/key selection, enabling vendor
-  flexibility and reproducible builds via uv.lock
+- Built a 5-agent LangGraph + Gemini doc-modernizer with Gradio, 
+  achieved *90%+ modernization coverage* on sample docs,
+  *cut manual edit time 50%* with a *4-tab UX*, 
+  hardened with *8 deterministic pytest cases* and network-safe skips
+- Authored modular agents 
+  (fetcher, analyzer, researcher, generator, quality-checker)
+  with structured prompts and severity-prioritized research,
+  *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%* through top-issue capping,
+  content truncation,
+  and batching
