@@ -157,7 +157,7 @@ Computer Vision
     name: "Cityscape (2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
-- Led a *team of 4* in designing and implementing a city tour mobile app, resulting in *100+ vivid city tours* for users
+- Designed and implemented a city tour mobile app, resulting in *100+ vivid city tours* for users
 - Wrote controllers and models for MongoDB using MongooseORM to store *30+ kB of geographic data* in NoSQL schema
 - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
