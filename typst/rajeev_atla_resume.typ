@@ -127,11 +127,11 @@ Computer Vision
     title: "AI Engineering Intern",
     location: "Remote",
     company: "Atlait Inc.",
-    dates: dates-helper(start-date: "May 2024", end-date: "September 2024"),
+    dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
-- Created a RAG system for an AI-powered search, enabling contextual search of *> 1TB* of historical content
+- Created a *> 1TB* RAG system, utilizng A/B testing to evaluate and optimize AI-powered search accuracy
 - Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
 
 == Projects
@@ -164,7 +164,7 @@ Computer Vision
 - Built a PyTorch-based GAN to model superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000+ downloads*] and widespread adoption
-- Authored a LaTeX paper on findings and future scope, *incorporating 500,000+ data points* effectively
+- Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
 
 #project(
     name: "Cityscape (Won 2nd Overall at HackExeter 2021)",
