@@ -96,7 +96,7 @@ Computer Vision
 == Skills
 
 - *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash
-- *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, Transformers, LangChain/LangGraph, DSPy, RAG, Hugginface (Transformers, Tokenizers, Datasets, Diffusers)
+- *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, Transformers, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers)
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, OCI (Oracle Cloud Infrastructure), GitHub Actions, Docker, Kubernetes
 - *Tools & Databases*: Jupyter Notebooks, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira
