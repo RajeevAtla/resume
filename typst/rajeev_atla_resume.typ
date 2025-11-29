@@ -96,7 +96,7 @@ Computer Vision
 == Skills
 
 - *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash
-- *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), Pydantic
+- *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), Pydantic, FastAPI
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, OCI (Oracle Cloud Infrastructure), GitHub Actions, Docker, Kubernetes
 - *Tools & Databases*: Jupyter Notebooks, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
@@ -148,13 +148,11 @@ Computer Vision
     name: "DocuMint",
     url: "https://bit.ly/DocuMint",
 )
-- Built a 5-agent LangGraph + Gemini doc-modernizer with Gradio,
+- Built a 5-agent LangGraph + Gemini API doc-modernizer with Gradio,
     achieved *90%+ modernization coverage* on sample docs,
     *cut manual edit time 50%* with a *4-tab UX*,
     hardened with *8 deterministic pytest cases* and network-safe skips
-- Authored modular AI agents
-    (fetcher, analyzer, researcher, generator, quality-checker)
-    with structured prompts and severity-prioritized research,
+- Authored a modular multi-agent system with structured prompts and severity-prioritized research,
     *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
 
 #project(
