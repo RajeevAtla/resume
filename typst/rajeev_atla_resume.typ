@@ -10,7 +10,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Rajeev Atla"
-#let email = "rajeevatla101@gmail.com"
+#let email = "rajeev@rajeevatla.com"
 #let github = "github.com/RajeevAtla"
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
