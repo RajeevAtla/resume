@@ -33,6 +33,7 @@
     paper: "us-letter",
     author-position: center,
     personal-info-position: center,
+    description: description,
 )
 
 #set list(
