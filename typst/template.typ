@@ -9,6 +9,7 @@
     linkedin: "",
     phone: "",
     personal-site: "",
+    description: "",
     accent-color: "#000000",
     font: "New Computer Modern",
     paper: "us-letter",
@@ -63,9 +64,20 @@
         )
         #pad(it.body)
     ]
+    
+    show heading.where(level: 2): it => [
+        #set align(author-position)
+        #set text(
+            size: font-size,
+        )
+        #pad(it.body)
+    ]
 
-    // Level 1 Heading
-    [= #(author)]
+    // Heading (author and description)
+    [
+      = #(author)
+      == #(description)
+    ]
 
     // Personal Info Helper
     let contact-item(value, prefix: "", link-type: "") = {

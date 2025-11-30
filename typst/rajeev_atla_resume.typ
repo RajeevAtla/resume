@@ -15,6 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
+#let description = "Scalable AI Architect"
 
 #show: resume.with(
     author: name,
