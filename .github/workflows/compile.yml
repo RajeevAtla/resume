@@ -27,7 +27,7 @@ jobs:
           
       - name: Lint Typst
         run: |
-          typstyle /typst --inplace --indent-width 4 --verbose --timing
+          typstyle /typ --inplace --indent-width 4 --verbose --timing
           
       - uses: typst-community/setup-typst@v4
         with:
