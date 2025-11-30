@@ -29,7 +29,7 @@ jobs:
         with:
           tool: harper-cli
           git: https://github.com/Automattic/harper
-          rev: master
+          tag: 0.1.0
           
       - name: Lint Typst
         run: |
