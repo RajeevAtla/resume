@@ -64,7 +64,7 @@
         )
         #pad(it.body)
     ]
-    
+
     show heading.where(level: 2): it => [
         #set align(author-position)
         #set text(
@@ -75,8 +75,8 @@
 
     // Heading (author and description)
     [
-      = #(author)
-      == #(description)
+        = #(author)
+        == #(description)
     ]
 
     // Personal Info Helper
