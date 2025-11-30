@@ -1,0 +1,40 @@
+name: Lint + Spellcheck
+
+on:
+  push:
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      attestations: write
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - uses: taiki-e/cache-cargo-install-action@main
+        with:
+          tool: typstyle
+          
+      - uses: taiki-e/cache-cargo-install-action@main
+        with:
+          tool: harper-cli
+          git: https://github.com/Automattic/harper
+          
+      - name: Lint Typst
+        run: |
+          typstyle typst/ --check --indent-width 4 --verbose --timing
+          
+      - name: Run Spellcheck (Harper)
+        run: |
+          harper-cli lint typst/template.typ
+          harper-cli lint typst/rajeev_atla_resume.typ

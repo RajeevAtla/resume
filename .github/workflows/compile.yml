@@ -25,7 +25,7 @@ jobs:
         with:
           tool: typstyle
           
-      - name: Lint Typst
+      - name: Format Typst
         run: |
           typstyle typst/ --inplace --indent-width 4 --verbose --timing
           
