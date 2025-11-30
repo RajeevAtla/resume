@@ -134,7 +134,7 @@ Computer Vision
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
 - Created a *> 1TB* RAG system, utilizing A/B testing to evaluate and optimize AI-powered search accuracy
-- Optimized CI/CD pipeline to *speed up build times by 13%* ensuring efficient development cycles
+- Optimized CI/CD pipeline to *speed up build times by 13%*, ensuring efficient development cycles
 
 == Projects
 
@@ -152,7 +152,7 @@ Computer Vision
 )
 - Built a 5-agent LangGraph + Gemini API doc-modernizer with Gradio,
     achieved *90%+ modernization coverage* on sample docs,
-    *cut manual edit time 50%* with a *4-tab UX*,
+    *cut manual edit time by 50%* with a *4-tab UX*,
     hardened with *8 deterministic pytest cases* and network-safe skips
 - Authored a modular multi-agent system with structured prompts and severity-prioritized research,
     *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
@@ -163,14 +163,14 @@ Computer Vision
 )
 - Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
-- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000+ downloads*] and widespread adoption
+- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
 - Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
 
 #project(
     name: "Cityscape Mobile Tour App (Won 2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
-- Wrote controllers and models for MongoDB using MongooseORM to store *30+ kB of geographic data* in NoSQL schema
+- Wrote controllers and models for MongoDB using Mongoose ODM to store *30+ kB of geographic data* in NoSQL schema
 - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
 
