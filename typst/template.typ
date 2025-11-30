@@ -65,9 +65,10 @@
         #pad(it.body)
     ]
 
-    show heading.where(level: 2): it => [
+    show heading.where(level: 3): it => [
         #set align(author-position)
         #set text(
+            weight: 350,
             size: font-size,
         )
         #pad(it.body)
@@ -76,7 +77,7 @@
     // Heading (author and description)
     [
         = #(author)
-        == #(description)
+        === #(description)
     ]
 
     // Personal Info Helper
