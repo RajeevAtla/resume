@@ -159,7 +159,7 @@ Computer Vision
     name: "SuperconGAN",
     url: "https://bit.ly/3z7JaqZ",
 )
-- Built a PyTorch-based GAN to model superconductivity data of various materials, enhancing generative AI applications
+- Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000+ downloads*] and widespread adoption
 - Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
