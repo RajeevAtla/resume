@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "Scalable AI Architect"
+#let description = "AI/ML Engineer Applying Cutting-Edge Techniques"
 
 #show: resume.with(
     author: name,
@@ -167,10 +167,9 @@ Computer Vision
 - Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
 
 #project(
-    name: "Cityscape (Won 2nd Overall at HackExeter 2021)",
+    name: "Cityscape Mobile Tour App (Won 2nd Overall at HackExeter 2021)",
     url: "https://bit.ly/3OZjJ07",
 )
-- Designed and implemented a city tour mobile app, resulting in *100+ vivid city tours* for users
 - Wrote controllers and models for MongoDB using MongooseORM to store *30+ kB of geographic data* in NoSQL schema
 - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
 - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
