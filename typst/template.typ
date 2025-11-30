@@ -68,7 +68,7 @@
     show heading.where(level: 3): it => [
         #set align(author-position)
         #set text(
-            weight: 350,
+            weight: 400,
             size: font-size,
         )
         #pad(it.body)
