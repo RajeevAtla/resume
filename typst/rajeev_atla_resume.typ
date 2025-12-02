@@ -102,7 +102,7 @@ Information and Network Security
 - *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
 - *Cloud & DevOps*: AWS, Microsoft Azure, OCI (Oracle Cloud Infrastructure), GCP, GitHub Actions, Docker, Kubernetes
-- *Tools & Databases*: Jupyter, Spark/PySpark, Apache Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
+- *Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
 
 == Certifications
 
