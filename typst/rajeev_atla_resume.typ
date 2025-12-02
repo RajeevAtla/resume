@@ -101,7 +101,7 @@ Information and Network Security
 - *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash
 - *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy
 - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
-- *Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, Jenkins, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes
+- *Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes
 - *Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
 
 == Certifications
