@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "AI/ML Engineer applying cutting-edge techniques to build scalable, complex systems"
+#let description = "AI/ML Engineer applying cutting-edge techniques to build secure, scalable, complex systems"
 
 #show: resume.with(
     author: name,
@@ -93,7 +93,8 @@ AI,
 Distributed Deep Learning,
 Data Science,
 Statistical Learning,
-Computer Vision
+Computer Vision,
+Information and Network Security
 
 == Skills
 
