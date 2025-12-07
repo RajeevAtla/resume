@@ -69,6 +69,14 @@
         degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
         consistent: true,
     )
+} else if position == "2027" {
+    edu(
+        institution: "Rutgers University - School of Engineering",
+        location: "New Brunswick, NJ",
+        dates: dates-helper(start-date: "Sep 2025", end-date: "May 2027"),
+        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
+        consistent: true,
+    )
 }
 
 #if position != "BS" {
