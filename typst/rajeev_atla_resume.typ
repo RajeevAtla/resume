@@ -106,11 +106,22 @@ Information and Network Security
 
 == Skills
 
+
+
+#if position != "2027" {
+  - *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash
+  - *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy
+  - *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
+  - *Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes
+  - *Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
+}
+else {
 - *Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash
 - *AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy
-- *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau
+- *Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau, Codex, Claude Code
 - *Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes
-- *Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code
+- *Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux, PostgreSQL, MongoDB, Jira, MS Office, SharePoint
+}
 
 == Certifications
 
