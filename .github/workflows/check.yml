@@ -25,12 +25,6 @@ jobs:
         with:
           tool: typstyle
           
-      - uses: taiki-e/cache-cargo-install-action@main
-        with:
-          tool: harper-cli
-          git: https://github.com/Automattic/harper
-          rev: a8e09d5
-          
       - name: Lint Typst
         run: |
           typstyle typst/ --check --indent-width 4 --verbose --timing
