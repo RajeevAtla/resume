@@ -10,3 +10,5 @@ rgb
 smallcaps
 mailto
 edu
+gpa
+emph
