@@ -106,8 +106,6 @@ Information and Network Security
 
 == Skills
 
-
-
 #if position != "2027" {
   list(
     [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
