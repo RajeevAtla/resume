@@ -34,6 +34,7 @@ dexMCP
 SuperconGAN
 CD
 OCI
+GCP
 PySpark
 Plotly
 spaCy
@@ -49,3 +50,5 @@ JAX
 Sneath
 fulltime
 sys
+Scikit
+typ
