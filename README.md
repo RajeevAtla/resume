@@ -1,5 +1,6 @@
 # Resume
 [![Compile Typst](https://github.com/RajeevAtla/resume/actions/workflows/compile.yml/badge.svg)](https://github.com/RajeevAtla/resume/actions/workflows/compile.yml)
+[![Lint + Spellcheck](https://github.com/RajeevAtla/resume/actions/workflows/check.yml/badge.svg)](https://github.com/RajeevAtla/resume/actions/workflows/check.yml)
 
 ## About
 
