@@ -1,6 +1,7 @@
 Rajeev
 Atla
 Atla's
+Atlait
 url
 github
 linkedin
@@ -12,3 +13,18 @@ mailto
 edu
 gpa
 emph
+js
+kB
+nodemon
+ODM
+HackExeter
+UCI
+GAN
+pytest
+Gradio
+LangGraph
+LangChain
+DocuMint
+DSPy
+Pydantic
+dexMCP
