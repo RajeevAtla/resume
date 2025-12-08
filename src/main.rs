@@ -2,10 +2,8 @@ use std::{fs, path::PathBuf, sync::Arc};
 use anyhow::Result;
 use clap::Parser;
 use harper_core::{
-    Dialect,
-    Document,
-    linting::LintGroup,
-    spell::{FstDictionary, MutableDictionary, MergedDictionary, DictWordMetadata},
+    Dialect, DictWordMetadata, Document, linting::LintGroup,
+    spell::{FstDictionary, MutableDictionary, MergedDictionary},
 };
 
 #[derive(Parser, Debug)]

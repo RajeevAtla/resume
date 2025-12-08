@@ -3874,7 +3874,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "resume"
+name = "resume_harper_spellcheck"
 version = "0.1.0"
 dependencies = [
  "anyhow",
