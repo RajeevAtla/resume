@@ -36,5 +36,5 @@ jobs:
       - name: Run Spellcheck (Harper-based)
         run: |
           cargo build --verbose --verbose --color always
-          cargo run -- typst/template.typ --extra-dict extra_words.txt --color always &
-          cargo run -- typst/rajeev_atla_resume.typ --extra-dict extra_words.txt --color always
+          cargo run  --color always -- typst/template.typ --extra-dict extra_words.txt &
+          cargo run  --color always -- typst/rajeev_atla_resume.typ --extra-dict extra_words.txt
