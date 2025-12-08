@@ -31,10 +31,32 @@ fn load_extra_dict(path: &PathBuf) -> Result<MutableDictionary> {
     Ok(dict)
 }
 
+fn build_line_starts(text: &str) -> Vec<usize> {
+    let mut starts = vec![0];
+    for (idx, ch) in text.chars().enumerate() {
+        if ch == '\n' {
+            starts.push(idx + 1);
+        }
+    }
+    starts
+}
+
+fn offset_to_line_col(offset: usize, line_starts: &[usize]) -> (usize, usize) {
+    let line_idx = match line_starts.binary_search(&offset) {
+        Ok(idx) => idx,
+        Err(insert) => insert.saturating_sub(1),
+    };
+    let col = offset.saturating_sub(line_starts[line_idx]) + 1;
+    (line_idx + 1, col)
+}
+
 fn main() -> Result<()> {
     let args = Args::parse();
 
     let text = fs::read_to_string(&args.file)?;
+    let line_starts = build_line_starts(&text);
+    let lines: Vec<&str> = text.lines().collect();
+    let chars: Vec<char> = text.chars().collect();
 
     // 1) Base curated dictionary (fast spellchecking) 
     let base_dict = Arc::new(FstDictionary::curated());
@@ -61,8 +83,42 @@ fn main() -> Result<()> {
     let organized = group.organized_lints(&doc);
     if let Some(spell_lints) = organized.get("SpellCheck") {
         for lint in spell_lints {
-            // Lint implements Debug; easiest is just:
-            println!("{lint:#?}");
+            let (start_line, start_col) = offset_to_line_col(lint.span.start, &line_starts);
+            let (end_line, end_col) =
+                offset_to_line_col(lint.span.end.saturating_sub(1), &line_starts);
+
+            println!(
+                "\n{}:{}-{}:{} | {} ({:?})",
+                start_line, start_col, end_line, end_col, lint.message, lint.lint_kind
+            );
+
+            let highlight_len = lint.span.len().max(1);
+            if let Some(line) = lines.get(start_line.saturating_sub(1)) {
+                println!("    {}", line);
+                if start_line == end_line {
+                    let padding = " ".repeat(start_col.saturating_sub(1));
+                    let marker = "^".repeat(highlight_len);
+                    println!("    {}{}", padding, marker);
+                } else {
+                    let padding = " ".repeat(start_col.saturating_sub(1));
+                    println!("    {}^ (spans multiple lines)", padding);
+                }
+            }
+
+            if !lint.suggestions.is_empty() {
+                let suggestions = lint
+                    .suggestions
+                    .iter()
+                    .map(|s| s.to_string())
+                    .collect::<Vec<_>>()
+                    .join(" | ");
+                println!("    suggestions: {suggestions}");
+            }
+
+            let offending = lint.span.get_content(&chars).iter().collect::<String>();
+            if !offending.is_empty() {
+                println!("    offending: \"{offending}\"");
+            }
         }
     }
 

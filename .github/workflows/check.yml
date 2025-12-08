@@ -37,5 +37,6 @@ jobs:
           
       - name: Run Spellcheck (Harper)
         run: |
-          harper-cli lint typst/template.typ
-          harper-cli lint typst/rajeev_atla_resume.typ
+          cargo build
+          cargo run -- typst/template.typ
+          cargo run -- typst/rajeev_atla_resume.typ
