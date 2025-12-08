@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -35,8 +35,8 @@ jobs:
         run: |
           typstyle typst/ --check --indent-width 4 --verbose --timing
           
-      - name: Run Spellcheck (Harper)
+      - name: Run Spellcheck (Harper-based)
         run: |
           cargo build
-          cargo run -- typst/template.typ
-          cargo run -- typst/rajeev_atla_resume.typ
+          cargo run -- typst/template.typ --extra-dict extra_words.txt
+          cargo run -- typst/rajeev_atla_resume.typ --extra-dict extra_words.txt

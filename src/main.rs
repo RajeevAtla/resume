@@ -81,8 +81,10 @@ fn main() -> Result<()> {
 
     // 5) Run lints and pull out just the SpellCheck lints
     let organized = group.organized_lints(&doc);
+    let mut found_spelling_errors = false;
     if let Some(spell_lints) = organized.get("SpellCheck") {
         for lint in spell_lints {
+            found_spelling_errors = true;
             let (start_line, start_col) = offset_to_line_col(lint.span.start, &line_starts);
             let (end_line, end_col) =
                 offset_to_line_col(lint.span.end.saturating_sub(1), &line_starts);
@@ -122,5 +124,9 @@ fn main() -> Result<()> {
         }
     }
 
-    Ok(())
+    if found_spelling_errors {
+        Err(anyhow::anyhow!("found spelling issues"))
+    } else {
+        Ok(())
+    }
 }
