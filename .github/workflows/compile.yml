@@ -1,4 +1,4 @@
-name: Compile and Lint Typst
+name: Compile and Format Typst
 
 on:
   push:
