@@ -18,7 +18,7 @@
     body,
 ) = {
     // Sets document metadata
-    set document(author: author, title: "Rajeev Atla Resume")
+    set document(author: author, title: "Rajeev Atla's Resume")
 
     // Document-wide formatting, including font and margins
     set text(
