@@ -25,6 +25,8 @@ jobs:
         with:
           tool: typstyle
           
+      - uses: Swatinem/rust-cache@v2
+          
       - name: Lint Typst
         run: |
           typstyle typst/ --check --indent-width 4 --verbose --timing
