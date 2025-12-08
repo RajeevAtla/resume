@@ -4,7 +4,7 @@
     top: 0.125in,
 ))
 #set page(
-    margin: 0.25in, // Reccomended to have 0.5in margin on all sides
+    margin: 0.25in, // Recommended to have 0.5in margin on all sides
     paper: "us-letter",
 )
 
