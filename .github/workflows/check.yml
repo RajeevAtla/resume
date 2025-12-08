@@ -26,6 +26,8 @@ jobs:
           tool: typstyle
           
       - uses: Swatinem/rust-cache@v2
+        with:
+          cache-on-failure: true
           
       - name: Lint Typst
         run: |
