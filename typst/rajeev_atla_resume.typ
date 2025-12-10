@@ -83,7 +83,8 @@
     [#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
         Reinforcement Learning,
         Multimodal AI,
-        High Performance/Distributed Computing]
+        High Performance/Distributed Computing,
+        Machine Vision]
 }
 
 #edu(
