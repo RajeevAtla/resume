@@ -113,7 +113,7 @@ Information and Network Security
         [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
         [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
         [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes],
-        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, Codex, Claude Code],
+        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, ROS, Codex, Claude Code],
     )
 } else {
     list(
@@ -164,10 +164,11 @@ Information and Network Security
     name: "raceformer",
     url: "https://bit.ly/raceformer",
 )
-- Engineered a scalable "Real-to-Sim" autonomous driving system processing *30GB of multimodal sensor data* on *4x A100s*, 
-    utilizing JAX masked autoencoder
-- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained real-world geometric priors to fine-tune RL policies, 
-    *outperforming scratch-trained baselines by 35%* in collision avoidance and sample efficiency
+- Engineered a scalable "Real-to-Sim" autonomous driving system processing *30GB of multimodal sensor data*
+    (IMU, camera, LiDAR, radar) from ROS2 bag on *4x A100s GPUs*, 
+    utilizing a JAX-based masked autoencoder
+- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained geometric priors to fine-tune RL policies, 
+    *outperforming baselines by 35%* in collision avoidance and sample efficiency
 
 #project(
     name: "dexMCP",
@@ -195,4 +196,3 @@ Information and Network Security
 - Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
-- Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
