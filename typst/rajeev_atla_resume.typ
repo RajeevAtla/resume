@@ -161,6 +161,13 @@ Information and Network Security
 == Projects
 
 #project(
+  name: "raceformer",
+  url: "https://bit.ly/raceformer"
+)
+- Used JAX-based transformer model to pretrain on CMHT driving dataset, achieving < 0.01 masked reconstruction loss
+- Used Gymnasium-based RL environment to finetune and achieve < 2 minutes per lap of track time
+
+#project(
     name: "dexMCP",
     url: "https://bit.ly/dexmcp",
 )
@@ -187,12 +194,3 @@ Information and Network Security
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
 - Authored LaTeX paper detailing experimental design and validation methodology for *500,000+ data points*
-
-#project(
-    name: "Cityscape Mobile Tour App (Won 2nd Overall at HackExeter 2021)",
-    url: "https://bit.ly/3OZjJ07",
-)
-- Wrote controllers and models for MongoDB using Mongoose ODM to store *30+ kB of geographic data* in NoSQL schema
-- Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
-- Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
-
