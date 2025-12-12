@@ -164,8 +164,10 @@ Information and Network Security
     name: "raceformer",
     url: "https://bit.ly/raceformer",
 )
-- Used JAX-based transformer model to pretrain on CMHT driving dataset, achieving < 0.01 masked reconstruction loss
-- Used Gymnasium-based RL environment to finetune and achieve < 2 minutes per lap of track time
+- Engineered a scalable "Real-to-Sim" autonomous driving system processing *30GB of multimodal sensor data* on *4x A100s*, 
+    utilizing JAX masked autoencoder
+- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained real-world geometric priors to fine-tune RL policies, 
+    *outperforming scratch-trained baselines by 35%* in collision avoidance and sample efficiency
 
 #project(
     name: "dexMCP",
