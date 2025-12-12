@@ -165,9 +165,9 @@ Information and Network Security
     url: "https://bit.ly/raceformer",
 )
 - Engineered a scalable "Real-to-Sim" autonomous driving system processing *30GB of multimodal sensor data*
-    (IMU, camera, LiDAR, radar) from ROS2 bag on *4x A100s GPUs*, 
+    (IMU, camera, LiDAR, radar) from ROS2 bag on *4x A100s GPUs*,
     utilizing a JAX-based masked autoencoder
-- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained geometric priors to fine-tune RL policies, 
+- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained geometric priors to fine-tune RL policies,
     *outperforming baselines by 35%* in collision avoidance and sample efficiency
 
 #project(
