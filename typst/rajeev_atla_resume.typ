@@ -161,8 +161,8 @@ Information and Network Security
 == Projects
 
 #project(
-  name: "raceformer",
-  url: "https://bit.ly/raceformer"
+    name: "raceformer",
+    url: "https://bit.ly/raceformer",
 )
 - Used JAX-based transformer model to pretrain on CMHT driving dataset, achieving < 0.01 masked reconstruction loss
 - Used Gymnasium-based RL environment to finetune and achieve < 2 minutes per lap of track time
