@@ -164,11 +164,11 @@ Information and Network Security
     name: "raceformer",
     url: "https://bit.ly/raceformer",
 )
-- Engineered a scalable "Real-to-Sim" autonomous driving system processing *30GB of multimodal sensor data*
-    (IMU, camera, LiDAR, radar) from ROS2 bag on *4x A100s GPUs*,
-    utilizing a JAX-based masked autoencoder
-- Achieved a *95% success rate* in high-speed autonomous racing by leveraging pre-trained geometric priors to fine-tune RL policies,
-    *outperforming baselines by 35%* in collision avoidance and sample efficiency
+- Engineered a high-fidelity "Real-to-Sim" validation pipeline processing 30GB of multimodal sensor data 
+    (LiDAR, Camera) on 4x A100s, 
+    utilizing JAX-based vision language model to generate ground truth scenarios for critical edge case simulation
+- Achieved a 95% pass rate on safety metrics by leveraging geometric priors to fine-tune RL policies, 
+    establishing clear performance baselines and outperforming standard models by 35% in collision avoidance testing
 
 #project(
     name: "dexMCP",
