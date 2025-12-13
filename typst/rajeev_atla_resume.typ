@@ -102,7 +102,6 @@ AI,
 Distributed Deep Learning,
 Data Science,
 Robotics and Computer Vision,
-Computer Vision,
 Info and Network Security
 
 == Skills
