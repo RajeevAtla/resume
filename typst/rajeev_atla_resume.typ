@@ -101,7 +101,7 @@ Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Enginee
 AI,
 Distributed Deep Learning,
 Data Science,
-Statistical Learning,
+Robotics and Computer Vision,
 Computer Vision,
 Information and Network Security
 
