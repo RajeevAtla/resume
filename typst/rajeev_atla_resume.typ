@@ -81,10 +81,11 @@
 
 #if position != "BS" {
     [#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-        Reinforcement Learning,
         Multimodal AI,
-        High Performance/Distributed Computing,
-        Machine Vision]
+        Reinforcement Learning,
+        Machine Vision,
+        High Performance/Distributed Computing
+    ]
 }
 
 #edu(
