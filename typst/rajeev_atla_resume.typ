@@ -99,6 +99,7 @@ Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Enginee
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
 AI,
+ML,
 Distributed Deep Learning,
 Data Science,
 Robotics and Computer Vision,
