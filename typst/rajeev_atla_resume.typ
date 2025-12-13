@@ -103,7 +103,7 @@ Distributed Deep Learning,
 Data Science,
 Robotics and Computer Vision,
 Computer Vision,
-Information and Network Security
+Info and Network Security
 
 == Skills
 
