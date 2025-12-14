@@ -101,8 +101,8 @@
                     contact-item(phone, link-type: "tel:"),
                     contact-item(location),
                     contact-item(email, link-type: "mailto:"),
-                    contact-item(github, link-type: "https://"),
                     contact-item(linkedin, link-type: "https://"),
+                    contact-item(github, link-type: "https://"),
                     contact-item(personal-site, link-type: "https://"),
                 )
                 items.filter(x => x != none).join(" | ")
