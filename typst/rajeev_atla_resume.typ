@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "AI/ML Engineer & Data Scientist applying cutting-edge techniques to build secure, scalable, complex systems"
+#let description = "AI/ML Engineer + Robotics Engineer (Shared Control, RL, Multimodal Driving, Safety-Critical Systems)"
 
 #show: resume.with(
     author: name,
@@ -114,7 +114,7 @@ Info and Network Security
         [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
         [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
         [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes, Slurm],
-        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, ROS, Codex, Claude Code],
+        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux (Ubuntu), PostgreSQL, MongoDB, Jira, ROS2, Codex, Claude Code],
     )
 } else {
     list(
