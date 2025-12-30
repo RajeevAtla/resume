@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "Deep Learning & Robotics Engineer | Computer Vision, Sensor Fusion & Real-to-Sim Validation"
+#let description = "Software Engineer Applying Cutting-Edge Techniques to Build Secure, Scalable, & Complex Systems"
 
 #show: resume.with(
     author: name,
