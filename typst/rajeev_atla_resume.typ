@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "AI/ML Engineer + Robotics Engineer (Shared Control, RL, Multimodal Driving, Safety-Critical Systems)"
+#let description = "Oracle-Certified AI/ML Engineer + Data Scientist Creating Scalable and Secure AI Systems"
 
 #show: resume.with(
     author: name,
