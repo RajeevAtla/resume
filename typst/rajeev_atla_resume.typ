@@ -10,10 +10,10 @@
 
 // Put your personal information here, replacing mine
 #let name = "Rajeev Atla"
-#let email = "rajeev.atla@gmail.com"
+#let email = "rajeevatla101@gmail.com"
 #let github = "github.com/RajeevAtla"
 #let linkedin = "linkedin.com/in/rajeev-atla"
-#let phone = "732-209-3995"
+#let phone = "203-772-8378"
 #let personal-site = "rajeevatla.com"
 #let description = "Machine Learning Engineer | GenAI, RAG & Search Systems Specialist"
 
