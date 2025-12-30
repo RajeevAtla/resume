@@ -10,12 +10,12 @@
 
 // Put your personal information here, replacing mine
 #let name = "Rajeev Atla"
-#let email = "rajeevatla101@gmail.com"
+#let email = "rajeev.atla@gmail.com"
 #let github = "github.com/RajeevAtla"
 #let linkedin = "linkedin.com/in/rajeev-atla"
-#let phone = "203-772-8378"
+#let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "Machine Learning Engineer | GenAI, RAG & Search Systems Specialist"
+#let description = "Deep Learning & Robotics Engineer | Computer Vision, Sensor Fusion & Real-to-Sim Validation"
 
 #show: resume.with(
     author: name,
@@ -169,7 +169,7 @@ Info and Network Security
     (LiDAR, camera, radar) on 4x A100s,
     utilizing JAX-based vision-language model to generate ground truth scenarios for critical edge case simulation
 - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
-    establishing clear performance baselines and *outperforming standard models by 35%* in collision avoidance testing
+    establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning
 
 #project(
     name: "dexMCP",
