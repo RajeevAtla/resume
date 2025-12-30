@@ -84,7 +84,8 @@
         Multimodal AI,
         Reinforcement Learning,
         Machine Vision,
-        High Performance/Distributed Computing
+        High Performance/Distributed Computing,
+        LLMs
     ]
 }
 
