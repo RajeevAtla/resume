@@ -115,7 +115,7 @@ Info and Network Security
         [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
         [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
         [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes, Slurm],
-        [*Tools & Databases*: Jupyter, PySpark, Git, Linux, PostgreSQL, MongoDB, Jira, MS Office, ROS2, Codex, Claude Code],
+        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux, PostgreSQL, MongoDB, Jira, MS Office, ROS2, Codex, Claude Code],
     )
 } else {
     list(
@@ -158,7 +158,7 @@ Info and Network Security
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
-- Optimized data pipeline using Airflow and Hadoop to *speed up analysis times by 13%* in an Agile environment, ensuring efficient development cycles
+- Optimized data pipeline using Airflow and Hadoop to *speed up analysis by 13%* in an Agile environment, ensuring efficient development cycles
 
 == Projects
 
