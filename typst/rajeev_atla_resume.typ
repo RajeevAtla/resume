@@ -158,7 +158,7 @@ Info and Network Security
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
 - *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
-- Optimized data pipeline using Airflow and Hadoop to *speed up analysis by 13%* in an Agile environment, ensuring efficient development cycles
+- Optimized data pipeline using Airflow + Hadoop to *speed up analysis by 13%* in an Agile environment, ensuring efficient development cycles
 
 == Projects
 
