@@ -156,7 +156,7 @@ Info and Network Security
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
 - Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
-- *Accelerated mean response time by 96 milliseconds* by integrating PyTorch inference models into Kafka microservices
+- Engineered PyTorch inference models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
 - Optimized Airflow-Hadoop data pipeline to *speed up analysis by 13%* in an Agile environment, speeding up development
 
@@ -170,7 +170,7 @@ Info and Network Security
     (LiDAR, camera, radar) on 4x A100s,
     utilizing JAX-based vision-language model to generate ground truth scenarios for critical edge case simulation
 - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
-    establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning
+    establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
 
 
 #project(
