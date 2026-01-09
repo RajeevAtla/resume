@@ -15,7 +15,7 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "AI/ML Engineer Building Secure, Scalable, & Complex Systems"
+#let description = "Data Scientist & AI Engineer specializing in Predictive Modeling, NLP, and Data Science"
 
 #show: resume.with(
     author: name,
