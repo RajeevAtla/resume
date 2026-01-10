@@ -121,7 +121,7 @@ Info and Network Security
     list(
         [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
         [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy, Codex, Claude Code],
-        [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
+        [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau, Power BI],
         [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes],
         [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux, PostgreSQL, MongoDB, Jira, MS Office, SharePoint],
     )
