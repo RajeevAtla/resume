@@ -43,43 +43,31 @@
 
 == Education
 
-#let position = sys.inputs.at("position", default: "default")
+#let term = sys.inputs.at("term", default: "default")
+#let end-date-val = state("end-date", "Present")
 
-#if position == "default" {
-    edu(
-        institution: "Rutgers University - School of Engineering",
-        location: "New Brunswick, NJ",
-        dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
-        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
-        consistent: true,
-    )
-} else if position == "intern" {
-    edu(
-        institution: "Rutgers University - School of Engineering",
-        location: "New Brunswick, NJ",
-        dates: dates-helper(start-date: "Sep 2025", end-date: "Dec 2026"),
-        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
-        consistent: true,
-    )
-} else if position == "fulltime" {
-    edu(
-        institution: "Rutgers University - School of Engineering",
-        location: "New Brunswick, NJ",
-        dates: dates-helper(start-date: "Sep 2025", end-date: "May 2026"),
-        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
-        consistent: true,
-    )
-}
+#end-date-val.update(
+    if term == "default" { "Present" }
+    else if term == "intern" { "Dec 2026" }
+    else if term == "newgrad" { "May 2026" }
+    else { "Present" }
+)
 
-#if position != "BS" {
-    [#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-        Multimodal AI,
-        LLMs,
-        Reinforcement Learning,
-        Machine Vision,
-        High Performance/Distributed Computing
-    ]
-}
+#edu(
+    institution: "Rutgers University - School of Engineering",
+    location: "New Brunswick, NJ",
+    dates: dates-helper(start-date: "Sep 2025", end-date: context end-date-val.get()),
+    degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
+    consistent: true,
+)
+
+#link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
+    Multimodal AI,
+    LLMs,
+    Reinforcement Learning,
+    Machine Vision,
+    High Performance/Distributed Computing
+
 
 #edu(
     institution: "Rutgers University - School of Engineering",
@@ -92,15 +80,14 @@
 Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Engineering Students
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-AI,
-ML,
-Distributed Deep Learning,
-Data Science,
-Robotics and Computer Vision,
-Info and Network Security
+    AI,
+    ML,
+    Distributed Deep Learning,
+    Data Science,
+    Robotics and Computer Vision,
+    Info and Network Security
 
 == Skills
-
 
 #list(
     [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
