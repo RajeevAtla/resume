@@ -20,10 +20,13 @@
 #let description = state("domain", "Hard-working and Motivated Builder")
 
 #description.update(
-    if domain == "aiml" {"AI/ML Engineer and Data Scientist Building Scalable, Secure, Smart Systems"}
-    else if domain == "dataeng" {"AI/ML and Data Engineer Building Scalable, Secure, Smart Systems"}
-    else if domain == "swe" {"AI-Native Software Engineer Building Scalable, Secure, Smart Systems"}
-    else {"Hard-working and Motivated Builder"}
+    if domain == "aiml" {
+        "AI/ML Engineer and Data Scientist Building Scalable, Secure, Smart Systems"
+    } else if domain == "dataeng" {
+        "AI/ML and Data Engineer Building Scalable, Secure, Smart Systems"
+    } else if domain == "swe" {
+        "AI-Native Software Engineer Building Scalable, Secure, Smart Systems"
+    } else { "Hard-working and Motivated Builder" },
 )
 
 #show: resume.with(
@@ -56,26 +59,28 @@
 #let end-date-val = state("end-date", "Present")
 
 #end-date-val.update(
-    if term == "default" {"Present"}
-    else if term == "intern" {"Dec 2026"}
-    else if term == "newgrad" {"May 2026"}
-    else {"Present"}
+    if term == "default" { "Present" } else if term == "intern" {
+        "Dec 2026"
+    } else if term == "newgrad" { "May 2026" } else { "Present" },
 )
 
 #edu(
     institution: "Rutgers University - School of Engineering",
     location: "New Brunswick, NJ",
-    dates: dates-helper(start-date: "Sep 2025", end-date: context end-date-val.get()),
+    dates: dates-helper(
+        start-date: "Sep 2025",
+        end-date: context end-date-val.get(),
+    ),
     degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
     consistent: true,
 )
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-    Multimodal AI,
-    LLMs,
-    Reinforcement Learning,
-    Machine Vision,
-    High Performance/Distributed Computing
+Multimodal AI,
+LLMs,
+Reinforcement Learning,
+Machine Vision,
+High Performance/Distributed Computing
 
 
 #edu(
@@ -89,12 +94,12 @@
 Recipient of the Eleanor and Samuel Sneath Endowed Merit Scholarship for Engineering Students
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-    AI,
-    ML,
-    Distributed Deep Learning,
-    Data Science,
-    Robotics and Computer Vision,
-    Info and Network Security
+AI,
+ML,
+Distributed Deep Learning,
+Data Science,
+Robotics and Computer Vision,
+Info and Network Security
 
 == Skills
 
