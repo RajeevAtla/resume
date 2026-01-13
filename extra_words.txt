@@ -58,3 +58,8 @@ A100s
 Slurm
 ROS
 ROS2
+aiml
+dataeng
+swe
+newgrad
+PowerBI
