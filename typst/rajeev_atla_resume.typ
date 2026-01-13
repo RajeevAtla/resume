@@ -69,14 +69,6 @@
         degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
         consistent: true,
     )
-} else if position == "2027" {
-    edu(
-        institution: "Rutgers University - School of Engineering",
-        location: "New Brunswick, NJ",
-        dates: dates-helper(start-date: "Sep 2025", end-date: "May 2027"),
-        degree: [*Master of Science* in Computer Engineering (Specialization in Machine Learning)],
-        consistent: true,
-    )
 }
 
 #if position != "BS" {
@@ -109,23 +101,15 @@ Info and Network Security
 
 == Skills
 
-#if position != "2027" {
-    list(
-        [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
-        [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
-        [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
-        [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes, Slurm],
-        [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, ROS2, Codex, Claude Code],
-    )
-} else {
-    list(
-        [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
-        [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy, Codex, Claude Code],
-        [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau, Power BI],
-        [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes],
-        [*Tools & Databases*: Jupyter, PySpark, Kafka, Git, Linux, PostgreSQL, MongoDB, Jira, MS Office, SharePoint],
-    )
-}
+
+#list(
+    [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
+    [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG, HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
+    [*Data Visualization*: Matplotlib, Seaborn, Plotly, Tableau],
+    [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes, Slurm],
+    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, ROS2, Codex, Claude Code],
+)
+
 
 == Certifications
 
