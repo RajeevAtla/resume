@@ -15,7 +15,16 @@
 #let linkedin = "linkedin.com/in/rajeev-atla"
 #let phone = "732-209-3995"
 #let personal-site = "rajeevatla.com"
-#let description = "AI/ML Engineer Building Scalable, Secure, Smart Systems"
+
+#let domain = sys.inputs.at("domain", default: "default")
+#let description = state("domain", "Hard-working and Motivated Builder")
+
+#description.update(
+    if domain == "aiml" {"AI/ML Engineer and Data Scientist Building Scalable, Secure, Smart Systems"}
+    else if domain == "dataeng" {"AI/ML and Data Engineer Building Scalable, Secure, Smart Systems"}
+    else if domain == "swe" {"AI-Native Software Engineer Building Scalable, Secure, Smart Systems"}
+    else {"Hard-working and Motivated Builder"}
+)
 
 #show: resume.with(
     author: name,
@@ -33,7 +42,7 @@
     paper: "us-letter",
     author-position: center,
     personal-info-position: center,
-    description: description,
+    description: context description.get(),
 )
 
 #set list(
@@ -47,10 +56,10 @@
 #let end-date-val = state("end-date", "Present")
 
 #end-date-val.update(
-    if term == "default" { "Present" }
-    else if term == "intern" { "Dec 2026" }
-    else if term == "newgrad" { "May 2026" }
-    else { "Present" }
+    if term == "default" {"Present"}
+    else if term == "intern" {"Dec 2026"}
+    else if term == "newgrad" {"May 2026"}
+    else {"Present"}
 )
 
 #edu(
