@@ -112,7 +112,6 @@ Info and Network Security
     [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, ROS2, Codex, Claude Code],
 )
 
-
 == Certifications
 
 #list(
