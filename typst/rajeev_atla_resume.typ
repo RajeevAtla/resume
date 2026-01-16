@@ -148,14 +148,6 @@ Info and Network Security
 == Projects
 
 #project(
-    name: "SuperconGAN",
-    url: "https://bit.ly/3z7JaqZ",
-)
-- Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
-- Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
-- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
-
-#project(
     name: "DocuMint",
     url: "https://bit.ly/DocuMint",
 )
@@ -167,6 +159,22 @@ Info and Network Security
     *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
 
 #project(
+    name: "dexMCP",
+    url: "https://bit.ly/dexmcp",
+)
+- Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
+- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs*
+- Built asynchronous clients using *DSPy* and *LangChain* to auto-discover tools and execute multi-step requests
+
+#project(
+    name: "SuperconGAN",
+    url: "https://bit.ly/3z7JaqZ",
+)
+- Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
+- Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
+- Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
+
+#project(
     name: "raceformer",
     url: "https://bit.ly/raceformer",
 )
@@ -175,12 +183,3 @@ Info and Network Security
     utilizing JAX-based vision-language model to generate ground truth scenarios for critical edge case simulation
 - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
     establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
-
-#project(
-    name: "dexMCP",
-    url: "https://bit.ly/dexmcp",
-)
-- Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
-- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs*
-- Built asynchronous clients using *DSPy* and *LangChain* to auto-discover tools and execute multi-step requests
-
