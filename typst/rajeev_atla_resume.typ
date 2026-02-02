@@ -77,10 +77,10 @@
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
 Multimodal AI,
-AI for Precision Health,
 LLMs,
 Reinforcement Learning,
 Machine Vision,
+AI for Precision Health,
 High Performance Computing
 
 
