@@ -65,8 +65,8 @@
 )
 
 #edu(
-    institution: "Rutgers University - School of Engineering",
-    location: "New Brunswick, NJ",
+    institution: "Princeton University (Exchange Student)/Rutgers University - School of Engineering",
+    location: "Princeton/New Brunswick, NJ",
     dates: dates-helper(
         start-date: "Sep 2025",
         end-date: context end-date-val.get(),
@@ -77,10 +77,11 @@
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
 Multimodal AI,
+AI for Precision Health,
 LLMs,
 Reinforcement Learning,
 Machine Vision,
-High Performance/Distributed Computing
+High Performance Computing
 
 
 #edu(
