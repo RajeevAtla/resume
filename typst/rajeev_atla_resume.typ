@@ -25,7 +25,7 @@
     } else if domain == "dataeng" {
         "AI/ML and Data Engineer Building Scalable, Secure, Smart Systems"
     } else if domain == "swe" {
-        "AI-Native Software Engineer Building Scalable, Secure, Smart Systems"
+        "AI-Native Software Engineer Building Secure Backend Systems, Automation, and Distributed Cloud Infrastructure"
     } else { "Hard-working and Motivated Builder" },
 )
 
