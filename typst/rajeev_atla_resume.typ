@@ -141,7 +141,7 @@ Info and Network Security
     company: "Atlait Inc.",
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
-- Developed a Python-SQL compression script for form data, *reducing storage costs by 7%* for enterprise clients
+- Integrated DevSecOps practices within GitHub Actions, *improving security vulnerability detection by 13%*
 - Engineered PyTorch inference models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
 - Optimized Airflow-Hadoop data pipeline to *speed up analysis by 13%* in an Agile environment, speeding up development
@@ -155,7 +155,7 @@ Info and Network Security
 - Built a 5-agent LangGraph + Gemini API doc-modernizer with Gradio,
     achieved *90%+ modernization coverage* on sample docs,
     *cut manual edit time by 50%* with a *4-tab UX*,
-    hardened with *8 deterministic pytest cases* and network-safe skips
+    hardened with *8 deterministic Pytest cases* and network-safe skips
 - Authored a modular multi-agent system with structured prompts and severity-prioritized research,
     *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
 
