@@ -63,3 +63,4 @@ dataeng
 swe
 newgrad
 PowerBI
+DevSecOps
