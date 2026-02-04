@@ -144,7 +144,7 @@ Info and Network Security
 - Integrated DevSecOps within GitHub Actions, *improving risk mitigation by 13%* for production
 - Engineered PyTorch inference models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
-- Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in an Agile environment
+- Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in a cross-functional Agile environment
 
 == Projects
 
@@ -164,8 +164,8 @@ Info and Network Security
     url: "https://bit.ly/dexmcp",
 )
 - Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
-- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs*
-- Built asynchronous clients using *DSPy* and *LangChain* to auto-discover tools and execute multi-step requests
+- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs* using Pydantic
+- Built asynchronous clients using *DSPy* and *LangChain* to auto-discover tools and execute multi-step agentic workflows
 
 #project(
     name: "SuperconGAN",
@@ -193,7 +193,7 @@ Info and Network Security
     [
         - Engineered a high-fidelity "Real-to-Sim" validation pipeline processing *30GB of multimodal sensor data*
             (LiDAR, camera, radar) on 4x A100s,
-            utilizing JAX-based vision-language model to generate ground truth scenarios for critical edge case simulation
+            utilizing JAX-based vision-language model to generate ground truth scenarios for intelligent systems
         - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
             establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
     ]
