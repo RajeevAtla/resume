@@ -110,7 +110,7 @@ Info and Network Security
         HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
     [*Visualization*: Matplotlib, Seaborn, Plotly, Tableau, PowerBI, React],
     [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions, Docker, Kubernetes, Slurm],
-    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, PyTest, Codex, Claude Code],
+    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, Kafka, Jira, PyTest, Codex, Claude Code],
 )
 
 == Certifications
@@ -191,8 +191,8 @@ Info and Network Security
         url: "https://bit.ly/raceformer",
     )
     [
-        - Engineered a high-fidelity "Real-to-Sim" validation pipeline processing *30GB of multimodal sensor data*
-            (LiDAR, camera, radar) on 4x A100s,
+        - Engineered a high-fidelity "Real-to-Sim" validation CUDA pipeline processing *30GB of multimodal sensor data*
+            (LiDAR, camera, radar) on 4xA100s,
             utilizing JAX-based vision-language model to generate ground truth scenarios for intelligent systems
         - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
             establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
