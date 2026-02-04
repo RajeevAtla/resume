@@ -141,10 +141,10 @@ Info and Network Security
     company: "Atlait Inc.",
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
-- Integrated DevSecOps practices within GitHub Actions, *improving security vulnerability detection by 13%*
+- Integrated DevSecOps within GitHub Actions, *improving risk mitigation by 13%* for production
 - Engineered PyTorch inference models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
-- Optimized Airflow-Hadoop data pipeline to *speed up analysis by 13%* in an Agile environment, speeding up development
+- Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in an Agile environment
 
 == Projects
 
