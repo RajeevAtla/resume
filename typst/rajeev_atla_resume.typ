@@ -105,12 +105,12 @@ Info and Network Security
 == Skills
 
 #list(
-    [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash],
+    [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash, Go],
     [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG,
         HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
     [*Visualization*: Matplotlib, Seaborn, Plotly, Tableau, PowerBI, React],
-    [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions (CI/CD Pipeline), Docker, Kubernetes, Slurm],
-    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, ROS2, Codex, Claude Code],
+    [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions, Docker, Kubernetes, Slurm],
+    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, PostgreSQL, MongoDB, Jira, PyTest, Codex, Claude Code],
 )
 
 == Certifications
