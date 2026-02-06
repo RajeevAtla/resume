@@ -108,9 +108,9 @@ Info and Network Security
     [*Programming Languages*: Python, R, SQL, Java, C/C++/CUDA, JavaScript/TypeScript, Rust, Bash, Go],
     [*AI/ML*: NumPy, PyTorch, JAX, TensorFlow, Keras, Pandas, Scikit-Learn, OpenAI API, LangChain/LangGraph, OpenCV, DSPy, RAG,
         HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
-    [*Visualization*: Matplotlib, Seaborn, Plotly, Tableau, PowerBI, React],
+    [*Visualization*: Jupyter/Marimo, Matplotlib, Seaborn, Plotly, Tableau, PowerBI, React, Svelte],
     [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions, Jenkins, Docker, Kubernetes, Slurm],
-    [*Tools & Databases*: Jupyter, PySpark, Hadoop/Hive, Git, Linux, Flink, Kafka, Jira, PyTest, Codex, Claude Code],
+    [*Tools & Databases*: PySpark, Hadoop/Hive, Git, Linux, Flink, Kafka, Jira, PyTest, Codex, Claude Code],
 )
 
 == Certifications
