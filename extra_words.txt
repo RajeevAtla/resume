@@ -64,3 +64,6 @@ swe
 newgrad
 PowerBI
 DevSecOps
+Marimo
+Flink
+A100s
