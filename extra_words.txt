@@ -67,3 +67,4 @@ DevSecOps
 Marimo
 Flink
 A100s
+xA100s
