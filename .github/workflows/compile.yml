@@ -46,7 +46,9 @@ jobs:
           typst compile typst/rajeev_atla_resume.typ pdf/dataeng/intern/Rajeev_Atla_Resume.pdf --input term=intern --input domain=dataeng &
           typst compile typst/rajeev_atla_resume.typ pdf/dataeng/newgrad/Rajeev_Atla_Resume.pdf --input term=newgrad --input domain=dataeng &
           typst compile typst/rajeev_atla_resume.typ pdf/swe/intern/Rajeev_Atla_Resume.pdf --input term=intern --input domain=swe &
-          typst compile typst/rajeev_atla_resume.typ pdf/swe/newgrad/Rajeev_Atla_Resume.pdf --input term=newgrad --input domain=swe
+          typst compile typst/rajeev_atla_resume.typ pdf/swe/newgrad/Rajeev_Atla_Resume.pdf --input term=newgrad --input domain=swe &
+          typst compile typst/rajeev_atla_resume.typ img/resume_LQ.png --input term=default --input domain=swe &
+          typst compile --ppi 1200 typst/rajeev_atla_resume.typ img/resume.png --input term=default --input domain=swe
 
       - name: Copy resume file
         run: |
