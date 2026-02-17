@@ -142,7 +142,7 @@ Info and Network Security
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
 - Integrated DevSecOps into distributed systems within GitHub Actions, *improving risk mitigation by 13%* for production
-- Engineered PyTorch inference models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
+- Engineered PyTorch diffusion models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
 - Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in a cross-functional Agile environment
 
@@ -193,7 +193,7 @@ Info and Network Security
     [
         - Engineered a high-fidelity "Real-to-Sim" validation CUDA pipeline processing *30GB of multimodal sensor data*
             (LiDAR, camera, radar) on 4xA100s,
-            utilizing JAX-based vision-language model to generate ground truth scenarios for intelligent systems
+            utilizing JAX-based transformer model to generate ground truth scenarios for intelligent systems
         - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
             establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
     ]
