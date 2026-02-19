@@ -76,12 +76,12 @@
 )
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
+AI for Precision Health,
 Multimodal AI,
 LLMs,
 Reinforcement Learning,
 Machine Vision,
-AI for Precision Health,
-High Performance Computing
+HPC
 
 
 #edu(
@@ -148,6 +148,30 @@ Info and Network Security
 
 == Projects
 
+#if domain == "swe" {
+    project(
+        name: "Cityscape Mobile Tour App (Won 2nd Overall at HackExeter 2021)",
+        url: "https://bit.ly/3OZjJ07",
+    )
+    [
+        - Wrote controllers and models for MongoDB using Mongoose ODM to store *30+ kB of geographic data* in NoSQL schema
+        - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
+        - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
+    ]
+} else {
+    project(
+        name: "raceformer",
+        url: "https://bit.ly/raceformer",
+    )
+    [
+        - Engineered a high-fidelity "Real-to-Sim" validation CUDA pipeline processing *30GB of multimodal sensor data*
+            (LiDAR, camera, radar) on 4xA100s,
+            utilizing JAX-based transformer model to generate ground truth scenarios for intelligent systems
+        - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
+            establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
+    ]
+}
+
 #project(
     name: "DocuMint",
     url: "https://bit.ly/DocuMint",
@@ -175,26 +199,4 @@ Info and Network Security
 - Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
 
-#if domain == "swe" {
-    project(
-        name: "Cityscape Mobile Tour App (Won 2nd Overall at HackExeter 2021)",
-        url: "https://bit.ly/3OZjJ07",
-    )
-    [
-        - Wrote controllers and models for MongoDB using Mongoose ODM to store *30+ kB of geographic data* in NoSQL schema
-        - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
-        - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
-    ]
-} else {
-    project(
-        name: "raceformer",
-        url: "https://bit.ly/raceformer",
-    )
-    [
-        - Engineered a high-fidelity "Real-to-Sim" validation CUDA pipeline processing *30GB of multimodal sensor data*
-            (LiDAR, camera, radar) on 4xA100s,
-            utilizing JAX-based transformer model to generate ground truth scenarios for intelligent systems
-        - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
-            establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
-    ]
-}
+
