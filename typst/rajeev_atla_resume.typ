@@ -21,7 +21,7 @@
 
 #description.update(
     if domain == "aiml" {
-        "AI/ML Engineer and Data Scientist Building Scalable, Secure, Smart Systems"
+        "Applied AI/ML Research Engineer and Data Scientist"
     } else if domain == "dataeng" {
         "AI/ML and Data Engineer Building Scalable, Secure, Smart Systems"
     } else if domain == "swe" {
@@ -142,7 +142,6 @@ Info and Network Security
     company: "Atlait Inc.",
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
-- Integrated DevSecOps into distributed systems within GitHub Actions, *improving risk mitigation by 13%* for production
 - Engineered PyTorch diffusion models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
 - Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
 - Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in a cross-functional Agile environment
