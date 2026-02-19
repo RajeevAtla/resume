@@ -76,7 +76,7 @@
 )
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-AI for Precision Health,
+AI for Precision Health (Currently exploring Genetic/Genomic data),
 Multimodal AI,
 LLMs,
 Reinforcement Learning,
