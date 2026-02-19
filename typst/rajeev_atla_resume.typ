@@ -78,8 +78,8 @@
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
 AI for Precision Health (Currently exploring computational biology and bio foundation models)
 
-Multimodal AI,
 LLMs,
+Multimodal AI,
 Reinforcement Learning,
 Machine Vision,
 HPC
