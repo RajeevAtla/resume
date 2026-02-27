@@ -76,8 +76,7 @@
 )
 
 #link("https://www.linkedin.com/in/rajeev-atla/details/education/")[Coursework]:
-AI for Precision Health (Currently exploring computational biology and bio foundation models @ Princeton)
-
+AI for Precision Health
 LLMs,
 Multimodal AI,
 Reinforcement Learning,
