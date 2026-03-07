@@ -110,7 +110,7 @@ Info and Network Security
         HuggingFace (Transformers, Tokenizers, Datasets, Diffusers), vLLM, pgvector, Pydantic, FastAPI, NLTK, spaCy],
     [*Visualization*: Jupyter/Marimo, Matplotlib, Seaborn, Plotly, Tableau, PowerBI, React, Svelte],
     [*Cloud & DevOps*: AWS, Microsoft Azure, OCI, GCP, GitHub Actions, Jenkins, Docker, Kubernetes, Slurm],
-    [*Tools & Databases*: PySpark, Hadoop/Hive, Git, Linux, Flink, Kafka, Jira, PyTest, Codex, Claude Code],
+    [*Tools & Databases*: PySpark, Hadoop/Hive, MongoDB, PostgreSQL, Git, Linux, Flink, Kafka, Jira, PyTest, Codex, Claude Code],
 )
 
 == Certifications
