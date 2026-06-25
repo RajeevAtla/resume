@@ -137,10 +137,10 @@ Info and Network Security
 
 
 #work(
-  title: "AI/ML Software Engineering Intern",
-  location: "Austin, TX",
-  company: "Visa Inc.",
-  dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026")
+    title: "AI/ML Software Engineering Intern",
+    location: "Austin, TX",
+    company: "Visa Inc.",
+    dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
 - Built an AI PySpark/SQL query tool over *10 PB* for *30+ finance analysts*, converting questions into star-schema queries
 - Created an LLM-driven dashboard that *cut reporting time 60%* and generated on-demand financial reports
