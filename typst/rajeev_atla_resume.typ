@@ -60,7 +60,7 @@
 
 #end-date-val.update(
     if term == "default" { "Present" } else if term == "intern" {
-        "Dec 2026"
+        "May 2027"
     } else if term == "newgrad" { "May 2026" } else { "Present" },
 )
 
@@ -135,15 +135,23 @@ Info and Network Security
 
 == Work Experience
 
+
+#work(
+  title: "AI/ML Software Engineering Intern",
+  location: "Austin, TX",
+  company: "Visa Inc.",
+  dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026")
+)
+- Built an AI PySpark/SQL query tool over *10 PB* for *30+ finance analysts*, converting questions into star-schema queries
+- Created an LLM-driven dashboard that *cut reporting time 60%* and generated on-demand financial reports
+
 #work(
     title: "AI Engineering Intern",
     location: "Remote",
     company: "Atlait Inc.",
     dates: dates-helper(start-date: "May 2024", end-date: "Sep 2024"),
 )
-- Integrated DevSecOps into distributed systems within GitHub Actions, *improving risk mitigation by 13%* for production
 - Engineered PyTorch diffusion models for real-time predictions, *optimizing latency by 96ms* and enabling faster decision-making
-- Created a *> 1TB* RAG-PySpark system, utilizing A/B testing to optimize AI-powered search and recommendation accuracy
 - Optimized Airflow-Hadoop data pipeline to *speed up analytics delivery by 13%* in a cross-functional Agile environment
 
 == Projects
@@ -152,27 +160,25 @@ Info and Network Security
     name: "DocuMint",
     url: "https://bit.ly/DocuMint",
 )
-- Built a 5-agent LangGraph + Gemini API doc-modernizer with Gradio,
+- Built a 5-agent LangGraph API doc-modernizer with Gradio,
     achieved *90%+ modernization coverage* on sample docs,
     *cut manual edit time by 50%* with a *4-tab UX*,
-    hardened with *8 deterministic Pytest cases* and network-safe skips
-- Authored a modular multi-agent system with structured prompts and severity-prioritized research,
+    hardened with *8 deterministic Pytest cases*
+- Authored multi-agent system with structured prompts and severity-prioritized research,
     *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
 
 #project(
     name: "dexMCP",
     url: "https://bit.ly/dexmcp",
 )
-- Engineered Model Context Protocol (MCP) server exposing *5+ reusable tools* and *5+ Pydantic models*
-- Implemented parameter validation across *20+ typed fields* and *100% of tool inputs* using Pydantic
-- Built asynchronous clients using *DSPy* and *LangChain* to auto-discover tools and execute multi-step agentic workflows
+- Engineered MCP server with *5+ reusable tools* and *5+ Pydantic models* for *20+ typed fields* and *100% of tool inputs*
+- Built asynchronous DSPy + LangChain clients to auto-discover tools and execute multi-step agentic workflows
 
 #project(
     name: "SuperconGAN",
     url: "https://bit.ly/3z7JaqZ",
 )
 - Built a PyTorch-based GAN to create synthetic superconductivity data of various materials, enhancing generative AI applications
-- Extracted and processed *80,000+ dataset entries* from the UCI ML Repository using Pandas efficiently
 - Released Python package on PyPI, achieving over #link("https://pepy.tech/projects/supercongan?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=stacked&versions=0.2.5%2C0.2.4%2C0.2.3")[*80,000 downloads*] and widespread adoption
 
 #if domain == "swe" {
@@ -191,10 +197,9 @@ Info and Network Security
         url: "https://bit.ly/raceformer",
     )
     [
-        - Engineered a high-fidelity "Real-to-Sim" validation CUDA pipeline processing *30GB of multimodal sensor data*
-            (LiDAR, camera, radar) on 4xA100s,
-            utilizing JAX-based transformer model to generate ground truth scenarios for intelligent systems
-        - Achieved a *95% pass rate on safety metrics* by leveraging geometric priors to fine-tune RL policies,
-            establishing clear performance baselines and *outperforming standard models by 35%* in neural path planning and risk avoidance
+        - Engineered "Real-to-Sim" CUDA pipeline processing *30GB of multimodal sensor data*
+            using JAX-based transformer model
+        - Achieved a *95% safety pass rate* by fine-tuning RL policy,
+            *outperforming standard models by 35%* in risk avoidance
     ]
 }
