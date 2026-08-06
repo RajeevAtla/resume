@@ -60,7 +60,7 @@
 
 #end-date-val.update(
     if term == "default" { "Present" } else if term == "intern" {
-        "May 2027"
+        "Dec 2026"
     } else if term == "newgrad" { "May 2026" } else { "Present" },
 )
 
