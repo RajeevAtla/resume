@@ -138,7 +138,7 @@ Info and Network Security
 #work(
     title: "AI Software Engineering Intern",
     location: "Seattle, WA",
-    company: "Amazon Inc."
+    company: "Amazon Inc.",
     dates: dates-helper(start-date: "Sep 2026", end-date: "Dec 2026")
 )
 
@@ -170,8 +170,8 @@ Info and Network Security
     achieved *90%+ modernization coverage* on sample docs,
     *cut manual edit time by 50%* with a *4-tab UX*,
     hardened with *8 deterministic Pytest cases*
-- Authored multi-agent system with structured prompts and severity-prioritized research,
-    *lifting modernization accuracy by 35%* and *trimming LLM API spend by 20%*
+- Authored multi-agent system with structured,
+    *lifting modernization accuracy by 35%* and *trimming LLM spend by 20%*
 
 #project(
     name: "dexMCP",
