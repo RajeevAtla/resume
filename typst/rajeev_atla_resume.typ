@@ -135,6 +135,12 @@ Info and Network Security
 
 == Work Experience
 
+#work(
+    title: "AI Software Engineering Intern",
+    location: "Seattle, WA",
+    company: "Amazon Inc."
+    dates: dates-helper(start-date: "Sep 2026", end-date: "Dec 2026")
+)
 
 #work(
     title: "AI/ML Software Engineering Intern",
