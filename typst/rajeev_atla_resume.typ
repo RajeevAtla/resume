@@ -139,7 +139,7 @@ Info and Network Security
     title: "AI Software Development Intern",
     location: "Seattle, WA",
     company: "Amazon Inc.",
-    dates: dates-helper(start-date: "Sep 2026", end-date: "Dec 2026")
+    dates: dates-helper(start-date: "Sep 2026", end-date: "Dec 2026"),
 )
 
 #work(
