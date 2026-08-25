@@ -195,7 +195,6 @@ Info and Network Security
     [
         - Wrote controllers and models for MongoDB using Mongoose ODM to store *30+ kB of geographic data* in NoSQL schema
         - Built mobile user interface allowing users to search, review, rank, and explore *100+ tours* using Flutter/Dart
-        - Constructed REST API using Express.js and nodemon to *increase development velocity by 20%* with hot-reloading
     ]
 } else {
     project(
