@@ -279,3 +279,4 @@ TSWLatexianTemp*
 # Added by cargo
 
 /target
+.opencode
