@@ -143,7 +143,7 @@ Info and Network Security
 )
 
 #work(
-    title: "AI/ML & Data Science Intern",
+    title: "Software Engineering Intern - AI/ML",
     location: "Austin, TX",
     company: "Visa",
     dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
