@@ -138,14 +138,14 @@ Info and Network Security
 #work(
     title: "Software Development Engineering Intern - AI/ML",
     location: "Seattle, WA",
-    company: "Amazon Inc.",
+    company: "Amazon",
     dates: dates-helper(start-date: "Sep 2026", end-date: "Dec 2026"),
 )
 
 #work(
     title: "AI/ML & Data Science Intern",
     location: "Austin, TX",
-    company: "Visa Inc.",
+    company: "Visa",
     dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
 - Built an AI PySpark/SQL query tool over *10 PB* for *30+ finance analysts*, converting questions into star-schema queries
